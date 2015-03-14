@@ -1,5 +1,5 @@
 1. EFM32GG332F1024 / SiLabs Low-power Cortex-M3 uC
-2. Battery controller and buck power converter
+2. Battery controller and buck power converter - BQ2501x
 3. Bluetooth LE IC
 4. Memory IC
 5. Pulse oximetry - AFE4403 or AFE4490 IC-based
@@ -8,3 +8,4 @@
 8. Sharp LS013B4DN04 memory display (1.35 inches diagonal)
 9. Micro USB connector in prototype, possibly Type-C in the finalised model
 10. Side buttons
+11. Battery fuel gauge?
