@@ -48,26 +48,26 @@ $EndDescr
 $Comp
 L C C1
 U 1 1 5502D843
-P 2550 1200
-F 0 "C1" H 2600 1300 50  0000 L CNN
-F 1 "100N" H 2600 1100 50  0000 L CNN
-F 2 "" H 2588 1050 30  0000 C CNN
-F 3 "" H 2550 1200 60  0000 C CNN
-	1    2550 1200
+P 1950 950
+F 0 "C1" H 2000 1050 50  0000 L CNN
+F 1 "100N" H 2000 850 50  0000 L CNN
+F 2 "" H 1988 800 30  0000 C CNN
+F 3 "" H 1950 950 60  0000 C CNN
+	1    1950 950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR1
 U 1 1 5502D86E
-P 2550 1400
-F 0 "#PWR01" H 2550 1150 60  0001 C CNN
-F 1 "GND" H 2550 1250 60  0000 C CNN
-F 2 "" H 2550 1400 60  0000 C CNN
-F 3 "" H 2550 1400 60  0000 C CNN
-	1    2550 1400
+P 1950 1150
+F 0 "#PWR1" H 1950 900 60  0001 C CNN
+F 1 "GND" H 1950 1000 60  0000 C CNN
+F 2 "" H 1950 1150 60  0000 C CNN
+F 3 "" H 1950 1150 60  0000 C CNN
+	1    1950 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 1000 0    60   Input ~ 0
+Text GLabel 1450 750  0    60   Input ~ 0
 MCU_RESET
 $Comp
 L FILTER FB1
@@ -81,10 +81,10 @@ F 3 "" H 1500 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR02
+L +3V3 #PWR4
 U 1 1 5502D92F
 P 1050 1700
-F 0 "#PWR02" H 1050 1550 60  0001 C CNN
+F 0 "#PWR4" H 1050 1550 60  0001 C CNN
 F 1 "+3V3" H 1050 1840 60  0000 C CNN
 F 2 "" H 1050 1700 60  0000 C CNN
 F 3 "" H 1050 1700 60  0000 C CNN
@@ -136,10 +136,10 @@ F 3 "" H 3250 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR6
 U 1 1 5502DA6A
 P 2450 2400
-F 0 "#PWR03" H 2450 2150 60  0001 C CNN
+F 0 "#PWR6" H 2450 2150 60  0001 C CNN
 F 1 "GND" H 2450 2250 60  0000 C CNN
 F 2 "" H 2450 2400 60  0000 C CNN
 F 3 "" H 2450 2400 60  0000 C CNN
@@ -158,10 +158,10 @@ F 3 "" H 5950 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR2
 U 1 1 5502E025
 P 5950 1400
-F 0 "#PWR04" H 5950 1150 60  0001 C CNN
+F 0 "#PWR2" H 5950 1150 60  0001 C CNN
 F 1 "GND" H 5950 1250 60  0000 C CNN
 F 2 "" H 5950 1400 60  0000 C CNN
 F 3 "" H 5950 1400 60  0000 C CNN
@@ -169,10 +169,10 @@ F 3 "" H 5950 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR05
+L +3V3 #PWR5
 U 1 1 5502E57A
 P 6650 2000
-F 0 "#PWR05" H 6650 1850 60  0001 C CNN
+F 0 "#PWR5" H 6650 1850 60  0001 C CNN
 F 1 "+3V3" H 6650 2140 60  0000 C CNN
 F 2 "" H 6650 2000 60  0000 C CNN
 F 3 "" H 6650 2000 60  0000 C CNN
@@ -180,52 +180,18 @@ F 3 "" H 6650 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 950  2400 0    60   ~ 0
-An analog voltage filter. \nNeed if use any analog inputs.\nAnd we will if we have the PDs.\n\n
+An analog voltage filter. \nNeed if use any analog inputs.\n\n
 $Comp
-L GND #PWR06
+L GND #PWR7
 U 1 1 5502E883
 P 6550 2500
-F 0 "#PWR06" H 6550 2250 60  0001 C CNN
+F 0 "#PWR7" H 6550 2250 60  0001 C CNN
 F 1 "GND" H 6550 2350 60  0000 C CNN
 F 2 "" H 6550 2500 60  0000 C CNN
 F 3 "" H 6550 2500 60  0000 C CNN
 	1    6550 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2050 1000 3450 1000
-Connection ~ 2550 1000
-Connection ~ 2550 1400
-Connection ~ 2050 1000
-Wire Wire Line
-	3450 1800 3450 1900
-Wire Wire Line
-	1050 1700 1050 1900
-Wire Wire Line
-	1050 1900 1150 1900
-Wire Wire Line
-	1950 1900 1850 1900
-Wire Wire Line
-	3450 1900 2450 1900
-Wire Wire Line
-	2450 2400 2450 2300
-Wire Wire Line
-	2450 2300 3250 2300
-Connection ~ 2650 2300
-Connection ~ 3000 2300
-Wire Wire Line
-	5650 1000 5950 1000
-Wire Wire Line
-	5650 1700 5650 2100
-Connection ~ 5650 1900
-Connection ~ 5650 2000
-Wire Wire Line
-	5650 2400 5650 2600
-Connection ~ 5650 2500
-Wire Wire Line
-	5650 2100 6650 2100
-Wire Wire Line
-	6650 2100 6650 2000
 $Comp
 L C C6
 U 1 1 5502E8E4
@@ -259,10 +225,6 @@ F 3 "" H 6300 2300 60  0000 C CNN
 	1    6300 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 2500 6650 2500
-Connection ~ 5800 2500
-Connection ~ 6050 2500
 $Comp
 L C C9
 U 1 1 5502EA43
@@ -274,31 +236,12 @@ F 3 "" H 6650 2300 60  0000 C CNN
 	1    6650 2300
 	1    0    0    -1  
 $EndComp
-Connection ~ 6550 2500
 Text Notes 6150 1250 0    60   ~ 0
 A decoupling cap\n
 Text Notes 5750 2800 0    60   ~ 0
 Capacitors, as in any good power source
-Text Notes 2200 950  0    60   ~ 0
+Text Notes 1600 700  0    60   ~ 0
 The uC reset line
-Connection ~ 5650 2100
-Connection ~ 5800 2100
-Connection ~ 6050 2100
-Connection ~ 6300 2100
-Connection ~ 6300 2500
-Connection ~ 2650 1900
-Connection ~ 3000 1900
-Connection ~ 3250 1900
-Connection ~ 3250 2300
-Connection ~ 3450 1000
-Connection ~ 5950 1000
-Connection ~ 5650 1000
-Connection ~ 5950 1400
-Connection ~ 3450 1800
-Connection ~ 3450 1900
-Wire Wire Line
-	5650 2000 5650 1900
-Connection ~ 6650 2100
 $Comp
 L EFM32GG332 U1
 U 4 1 5504408B
@@ -310,4 +253,331 @@ F 3 "" H 5150 750 60  0000 C CNN
 	4    3650 800 
 	1    0    0    -1  
 $EndComp
+$Comp
+L BQ2501x U2
+U 1 1 55044FB7
+P 2500 3150
+F 0 "U2" H 2550 3200 60  0000 C CNN
+F 1 "BQ2501x" H 3000 2050 60  0000 C CNN
+F 2 "" H 3000 2050 60  0000 C CNN
+F 3 "" H 3000 2050 60  0000 C CNN
+	1    2500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR9
+U 1 1 5504656F
+P 2000 3500
+F 0 "#PWR9" H 2000 3250 60  0001 C CNN
+F 1 "GND" H 2000 3350 60  0000 C CNN
+F 2 "" H 2000 3500 60  0000 C CNN
+F 3 "" H 2000 3500 60  0000 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB-MICRO-B CON1
+U 1 1 550465CB
+P 2850 4750
+F 0 "CON1" H 2550 5100 50  0000 C CNN
+F 1 "USB-MICRO-B" H 2700 4400 50  0000 C CNN
+F 2 "" H 2850 4650 50  0000 C CNN
+F 3 "" H 2850 4650 50  0000 C CNN
+	1    2850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR11
+U 1 1 5504682A
+P 1950 5150
+F 0 "#PWR11" H 1950 4900 60  0001 C CNN
+F 1 "GND" H 1950 5000 60  0000 C CNN
+F 2 "" H 1950 5150 60  0000 C CNN
+F 3 "" H 1950 5150 60  0000 C CNN
+	1    1950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 5504687E
+P 1350 4750
+F 0 "C13" H 1400 4850 50  0000 L CNN
+F 1 "0.1U" H 1400 4650 50  0000 L CNN
+F 2 "" H 1388 4600 30  0000 C CNN
+F 3 "" H 1350 4750 60  0000 C CNN
+	1    1350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 55046E5D
+P 3900 3400
+F 0 "L1" V 3850 3400 50  0000 C CNN
+F 1 "INDUCTOR" V 4000 3400 50  0000 C CNN
+F 2 "" H 3900 3400 60  0000 C CNN
+F 3 "" H 3900 3400 60  0000 C CNN
+	1    3900 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C12
+U 1 1 55047393
+P 4400 3600
+F 0 "C12" H 4450 3700 50  0000 L CNN
+F 1 "C" H 4450 3500 50  0000 L CNN
+F 2 "" H 4438 3450 30  0000 C CNN
+F 3 "" H 4400 3600 60  0000 C CNN
+	1    4400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR10
+U 1 1 55047409
+P 4400 3900
+F 0 "#PWR10" H 4400 3650 60  0001 C CNN
+F 1 "GND" H 4400 3750 60  0000 C CNN
+F 2 "" H 4400 3900 60  0000 C CNN
+F 3 "" H 4400 3900 60  0000 C CNN
+	1    4400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR8
+U 1 1 550474E0
+P 4400 3250
+F 0 "#PWR8" H 4400 3100 60  0001 C CNN
+F 1 "+3V3" H 4400 3390 60  0000 C CNN
+F 2 "" H 4400 3250 60  0000 C CNN
+F 3 "" H 4400 3250 60  0000 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 55047541
+P 3800 3900
+F 0 "R2" V 3880 3900 50  0000 C CNN
+F 1 "R" V 3807 3901 50  0000 C CNN
+F 2 "" V 3730 3900 30  0000 C CNN
+F 3 "" H 3800 3900 30  0000 C CNN
+	1    3800 3900
+	0    1    1    0   
+$EndComp
+Text Notes 3300 4350 0    60   ~ 0
+Battery Charger\nWith Power Converter
+Text GLabel 1250 4550 0    60   Input ~ 0
+USB_VBUS
+Text GLabel 2900 1100 0    60   Input ~ 0
+USB_VBUS
+$Comp
+L C C10
+U 1 1 550499CA
+P 3100 1450
+F 0 "C10" V 3150 1550 50  0000 L CNN
+F 1 "4.7U" V 3050 1200 50  0000 L CNN
+F 2 "" H 3138 1300 30  0000 C CNN
+F 3 "" H 3100 1450 60  0000 C CNN
+	1    3100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C11
+U 1 1 55049A07
+P 3100 1700
+F 0 "C11" V 3150 1800 50  0000 L CNN
+F 1 "1U" V 3150 1450 50  0000 L CNN
+F 2 "" H 3138 1550 30  0000 C CNN
+F 3 "" H 3100 1700 60  0000 C CNN
+	1    3100 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5504A498
+P 2650 1600
+F 0 "#PWR3" H 2650 1350 60  0001 C CNN
+F 1 "GND" H 2650 1450 60  0000 C CNN
+F 2 "" H 2650 1600 60  0000 C CNN
+F 3 "" H 2650 1600 60  0000 C CNN
+	1    2650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5504B72A
+P 2000 5500
+F 0 "R3" V 2080 5500 50  0000 C CNN
+F 1 "15R" V 2007 5501 50  0000 C CNN
+F 2 "" V 1930 5500 30  0000 C CNN
+F 3 "" H 2000 5500 30  0000 C CNN
+	1    2000 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5504B74F
+P 2000 5750
+F 0 "R4" V 2080 5750 50  0000 C CNN
+F 1 "15R" V 2007 5751 50  0000 C CNN
+F 2 "" V 1930 5750 30  0000 C CNN
+F 3 "" H 2000 5750 30  0000 C CNN
+	1    2000 5750
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 5750 2    60   Input ~ 0
+USB_DN
+Text GLabel 2550 5500 2    60   Input ~ 0
+USB_DP
+Connection ~ 3350 4950
+Connection ~ 2350 5150
+Connection ~ 3350 4850
+Connection ~ 3350 4650
+Wire Wire Line
+	3350 4550 3350 5150
+Wire Wire Line
+	2350 5150 2350 4950
+Wire Wire Line
+	1350 4950 1350 5150
+Wire Wire Line
+	2900 1600 2650 1600
+Wire Wire Line
+	2900 1700 2900 1600
+Wire Wire Line
+	2650 1600 2650 1450
+Wire Wire Line
+	2650 1450 2900 1450
+Wire Wire Line
+	3450 1700 3300 1700
+Wire Wire Line
+	3450 1600 3450 1700
+Connection ~ 3450 1450
+Wire Wire Line
+	3450 1450 3300 1450
+Wire Wire Line
+	3450 1300 3450 1500
+Wire Wire Line
+	3200 1300 3450 1300
+Wire Wire Line
+	3200 1100 3200 1300
+Wire Wire Line
+	3450 750  3450 1000
+Wire Wire Line
+	2900 1100 3200 1100
+Connection ~ 1350 4550
+Wire Wire Line
+	3550 3900 3400 3900
+Wire Wire Line
+	4300 3800 4400 3800
+Wire Wire Line
+	4300 3900 4300 3800
+Wire Wire Line
+	4050 3900 4300 3900
+Wire Wire Line
+	4400 3400 4400 3250
+Wire Wire Line
+	4400 3800 4400 3900
+Wire Wire Line
+	4200 3400 4400 3400
+Wire Wire Line
+	4200 3600 4200 3400
+Wire Wire Line
+	3550 3600 4200 3600
+Wire Wire Line
+	3550 3500 3550 3600
+Wire Wire Line
+	3400 3500 3550 3500
+Wire Wire Line
+	3400 3400 3600 3400
+Connection ~ 1950 5150
+Connection ~ 1900 4550
+Wire Wire Line
+	1350 5150 3350 5150
+Wire Wire Line
+	1250 4550 2350 4550
+Wire Wire Line
+	1900 3700 1900 4550
+Wire Wire Line
+	2300 3700 1900 3700
+Wire Wire Line
+	2300 3500 2000 3500
+Connection ~ 2300 3500
+Wire Wire Line
+	2300 3400 2300 3600
+Connection ~ 6650 2100
+Wire Wire Line
+	5650 2000 5650 1900
+Connection ~ 3450 1900
+Connection ~ 3450 1800
+Connection ~ 5950 1400
+Connection ~ 5650 1000
+Connection ~ 5950 1000
+Connection ~ 3450 1000
+Connection ~ 3250 2300
+Connection ~ 3250 1900
+Connection ~ 3000 1900
+Connection ~ 2650 1900
+Connection ~ 6300 2500
+Connection ~ 6300 2100
+Connection ~ 6050 2100
+Connection ~ 5800 2100
+Connection ~ 5650 2100
+Connection ~ 6550 2500
+Connection ~ 6050 2500
+Connection ~ 5800 2500
+Wire Wire Line
+	5650 2500 6650 2500
+Wire Wire Line
+	6650 2100 6650 2000
+Wire Wire Line
+	5650 2100 6650 2100
+Connection ~ 5650 2500
+Wire Wire Line
+	5650 2400 5650 2600
+Connection ~ 5650 2000
+Connection ~ 5650 1900
+Wire Wire Line
+	5650 1700 5650 2100
+Wire Wire Line
+	5650 1000 5950 1000
+Connection ~ 3000 2300
+Connection ~ 2650 2300
+Wire Wire Line
+	2450 2300 3250 2300
+Wire Wire Line
+	2450 2400 2450 2300
+Wire Wire Line
+	2450 1900 3450 1900
+Wire Wire Line
+	1950 1900 1850 1900
+Wire Wire Line
+	1050 1900 1150 1900
+Wire Wire Line
+	1050 1700 1050 1900
+Wire Wire Line
+	3450 1900 3450 1800
+Connection ~ 1450 750 
+Connection ~ 1950 1150
+Connection ~ 1950 750 
+Wire Wire Line
+	1450 750  3450 750 
+Wire Wire Line
+	1600 4650 2350 4650
+Wire Wire Line
+	1600 4650 1600 5750
+Wire Wire Line
+	2350 4750 1750 4750
+Wire Wire Line
+	1750 4750 1750 5500
+Wire Wire Line
+	1600 5750 1750 5750
+Connection ~ 1750 5500
+Connection ~ 1750 5750
+Wire Wire Line
+	2550 5500 2250 5500
+Wire Wire Line
+	2550 5750 2250 5750
+Text Notes 2450 5350 0    60   ~ 0
+USB connector and data lines\n
+Text Notes 2350 1300 0    60   ~ 0
+USB Power to IC
 $EndSCHEMATC
