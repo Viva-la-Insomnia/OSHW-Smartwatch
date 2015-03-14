@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EFM32GG332
+D ARM Cortex-M3 48MHz Low-Power UC 32kB RAM 64-256kB Flash
+$ENDCMP
+#
+#End Doc Library
