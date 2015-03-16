@@ -1,8 +1,8 @@
 1. EFM32GG332F1024 / SiLabs Low-power Cortex-M3 uC
 2. Battery controller and buck power converter - BQ2501x
 NOTE: May need to redesign that as two separate ICs to save power
-3. Bluetooth LE IC
-4. Memory IC - for saving the readings of oximeter&IMU
+3. nRF8001 Bluetooth LE IC
+4. AT24C1024 EEPROM IC - for saving the readings of oximeter&IMU
 5. Pulse oximetry - AFE4403 or AFE4490 IC-based
 6. MPU-9150 IMU - gyroscope, accelerometer, magnetometer
 7. Li-ion battery - 150-300 mAh
