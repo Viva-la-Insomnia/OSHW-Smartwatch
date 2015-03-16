@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title "Power"
 Date "14 March 2015"
 Rev "1.0"
@@ -57,18 +57,16 @@ F 3 "" H 2250 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 55047461
 P 2250 1400
-F 0 "#PWR1" H 2250 1150 60  0001 C CNN
+F 0 "#PWR01" H 2250 1150 60  0001 C CNN
 F 1 "GND" H 2250 1250 60  0000 C CNN
 F 2 "" H 2250 1400 60  0000 C CNN
 F 3 "" H 2250 1400 60  0000 C CNN
 	1    2250 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 1000 0    60   Input ~ 0
-MCU_RESET
 $Comp
 L FILTER FB1
 U 1 1 55047468
@@ -81,10 +79,10 @@ F 3 "" H 1800 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR4
+L +3V3 #PWR02
 U 1 1 5504746F
 P 1350 1950
-F 0 "#PWR4" H 1350 1800 60  0001 C CNN
+F 0 "#PWR02" H 1350 1800 60  0001 C CNN
 F 1 "+3V3" H 1350 2090 60  0000 C CNN
 F 2 "" H 1350 1950 60  0000 C CNN
 F 3 "" H 1350 1950 60  0000 C CNN
@@ -136,10 +134,10 @@ F 3 "" H 3550 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR03
 U 1 1 55047491
 P 2750 2650
-F 0 "#PWR6" H 2750 2400 60  0001 C CNN
+F 0 "#PWR03" H 2750 2400 60  0001 C CNN
 F 1 "GND" H 2750 2500 60  0000 C CNN
 F 2 "" H 2750 2650 60  0000 C CNN
 F 3 "" H 2750 2650 60  0000 C CNN
@@ -158,10 +156,10 @@ F 3 "" H 6250 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR04
 U 1 1 5504749E
 P 6250 1650
-F 0 "#PWR2" H 6250 1400 60  0001 C CNN
+F 0 "#PWR04" H 6250 1400 60  0001 C CNN
 F 1 "GND" H 6250 1500 60  0000 C CNN
 F 2 "" H 6250 1650 60  0000 C CNN
 F 3 "" H 6250 1650 60  0000 C CNN
@@ -169,10 +167,10 @@ F 3 "" H 6250 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR5
+L +3V3 #PWR05
 U 1 1 550474A4
 P 6950 2250
-F 0 "#PWR5" H 6950 2100 60  0001 C CNN
+F 0 "#PWR05" H 6950 2100 60  0001 C CNN
 F 1 "+3V3" H 6950 2390 60  0000 C CNN
 F 2 "" H 6950 2250 60  0000 C CNN
 F 3 "" H 6950 2250 60  0000 C CNN
@@ -182,10 +180,10 @@ $EndComp
 Text Notes 1250 2650 0    60   ~ 0
 An analog voltage filter. \nNeeded if any of \nthe analog inputs are used.\n
 $Comp
-L GND #PWR7
+L GND #PWR06
 U 1 1 550474AB
 P 6850 2750
-F 0 "#PWR7" H 6850 2500 60  0001 C CNN
+F 0 "#PWR06" H 6850 2500 60  0001 C CNN
 F 1 "GND" H 6850 2600 60  0000 C CNN
 F 2 "" H 6850 2750 60  0000 C CNN
 F 3 "" H 6850 2750 60  0000 C CNN
@@ -260,17 +258,17 @@ L BQ2501x U2
 U 1 1 550474D7
 P 2800 3400
 F 0 "U2" H 2850 3450 60  0000 C CNN
-F 1 "BQ2501x" H 3300 2300 60  0000 C CNN
+F 1 "BQ25011" H 3300 2300 60  0000 C CNN
 F 2 "" H 3300 2300 60  0000 C CNN
 F 3 "" H 3300 2300 60  0000 C CNN
 	1    2800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR07
 U 1 1 550474DE
 P 2300 3750
-F 0 "#PWR9" H 2300 3500 60  0001 C CNN
+F 0 "#PWR07" H 2300 3500 60  0001 C CNN
 F 1 "GND" H 2300 3600 60  0000 C CNN
 F 2 "" H 2300 3750 60  0000 C CNN
 F 3 "" H 2300 3750 60  0000 C CNN
@@ -289,10 +287,10 @@ F 3 "" H 3150 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR12
+L GND #PWR08
 U 1 1 550474EB
 P 2250 5400
-F 0 "#PWR12" H 2250 5150 60  0001 C CNN
+F 0 "#PWR08" H 2250 5150 60  0001 C CNN
 F 1 "GND" H 2250 5250 60  0000 C CNN
 F 2 "" H 2250 5400 60  0000 C CNN
 F 3 "" H 2250 5400 60  0000 C CNN
@@ -333,10 +331,10 @@ F 3 "" H 4700 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR09
 U 1 1 55047506
 P 4700 4150
-F 0 "#PWR10" H 4700 3900 60  0001 C CNN
+F 0 "#PWR09" H 4700 3900 60  0001 C CNN
 F 1 "GND" H 4700 4000 60  0000 C CNN
 F 2 "" H 4700 4150 60  0000 C CNN
 F 3 "" H 4700 4150 60  0000 C CNN
@@ -344,10 +342,10 @@ F 3 "" H 4700 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR8
+L +3V3 #PWR010
 U 1 1 5504750C
 P 4700 3500
-F 0 "#PWR8" H 4700 3350 60  0001 C CNN
+F 0 "#PWR010" H 4700 3350 60  0001 C CNN
 F 1 "+3V3" H 4700 3640 60  0000 C CNN
 F 2 "" H 4700 3500 60  0000 C CNN
 F 3 "" H 4700 3500 60  0000 C CNN
@@ -365,12 +363,8 @@ F 3 "" H 4100 4150 30  0000 C CNN
 	1    4100 4150
 	0    1    1    0   
 $EndComp
-Text Notes 3600 4600 0    60   ~ 0
-Battery Charger\nWith Power Converter
-Text GLabel 1550 4800 0    60   Input ~ 0
-USB_VBUS
-Text GLabel 3200 1350 0    60   Input ~ 0
-USB_VBUS
+Text Notes 1100 4150 0    60   ~ 0
+Battery Charger\nWith Power Converter\nConsider redesign as \n2 separate ICs for\npower saving
 $Comp
 L C C3
 U 1 1 5504751C
@@ -394,10 +388,10 @@ F 3 "" H 3400 1950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR011
 U 1 1 5504752A
 P 2950 1850
-F 0 "#PWR3" H 2950 1600 60  0001 C CNN
+F 0 "#PWR011" H 2950 1600 60  0001 C CNN
 F 1 "GND" H 2950 1700 60  0000 C CNN
 F 2 "" H 2950 1850 60  0000 C CNN
 F 3 "" H 2950 1850 60  0000 C CNN
@@ -426,20 +420,59 @@ F 3 "" H 2300 6000 30  0000 C CNN
 	1    2300 6000
 	0    1    1    0   
 $EndComp
-Text GLabel 2850 6000 2    60   Input ~ 0
-USB_DN
-Text GLabel 2850 5750 2    60   Input ~ 0
-USB_DP
+Text Notes 2750 5600 0    60   ~ 0
+USB connector and data lines\n
+Text Notes 2650 1550 0    60   ~ 0
+USB Power to IC
+$Comp
+L BATTERY BT1
+U 1 1 550477FF
+P 5250 4650
+F 0 "BT1" H 5250 4850 50  0000 C CNN
+F 1 "BATTERY" H 5250 4460 50  0000 C CNN
+F 2 "" H 5250 4650 60  0000 C CNN
+F 3 "" H 5250 4650 60  0000 C CNN
+	1    5250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 55047918
+P 5800 4650
+F 0 "#PWR012" H 5800 4400 60  0001 C CNN
+F 1 "GND" H 5800 4500 60  0000 C CNN
+F 2 "" H 5800 4650 60  0000 C CNN
+F 3 "" H 5800 4650 60  0000 C CNN
+	1    5800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 550479A6
+P 4800 4850
+F 0 "C13" H 4850 4950 50  0000 L CNN
+F 1 "4.7U" H 4850 4750 50  0000 L CNN
+F 2 "" H 4838 4700 30  0000 C CNN
+F 3 "" H 4800 4850 60  0000 C CNN
+	1    4800 4850
+	1    0    0    -1  
+$EndComp
+Text Notes 2150 6550 0    60   ~ 0
+AN00046 recommends \nferrite beads on USB inputs\nConsider with connection\nto size requirements
+Text Notes 4900 4250 0    60   ~ 0
+Choose values for the capacitors,\ninductors and resistors\naccording to BQ2501x datasheet\nand final power requirements.\nRemember to recheck the circuit 
+Text HLabel 1750 1000 0    60   Input ~ 0
+MCU_RESET
 Connection ~ 3650 5200
 Connection ~ 2650 5400
 Connection ~ 3650 5100
 Connection ~ 3650 4900
 Wire Wire Line
-	3650 4800 3650 5400
+	3650 5400 3650 4800
 Wire Wire Line
 	2650 5400 2650 5200
 Wire Wire Line
-	1650 5200 1650 5400
+	1650 5200 1650 5500
 Wire Wire Line
 	3200 1850 2950 1850
 Wire Wire Line
@@ -483,23 +516,23 @@ Wire Wire Line
 Wire Wire Line
 	4500 3850 4500 3650
 Wire Wire Line
-	3850 3850 4500 3850
+	4000 3850 4500 3850
 Wire Wire Line
-	3850 3750 3850 3850
+	4000 3750 4000 3850
 Wire Wire Line
-	3700 3750 3850 3750
+	3700 3750 4000 3750
 Wire Wire Line
 	3700 3650 3900 3650
 Connection ~ 2250 5400
-Connection ~ 2200 4800
+Connection ~ 2100 4800
 Wire Wire Line
 	1650 5400 3650 5400
 Wire Wire Line
 	1550 4800 2650 4800
 Wire Wire Line
-	2200 3950 2200 4800
+	2100 3950 2100 4800
 Wire Wire Line
-	2600 3950 2200 3950
+	2600 3950 2100 3950
 Wire Wire Line
 	2600 3750 2300 3750
 Connection ~ 2600 3750
@@ -507,7 +540,7 @@ Wire Wire Line
 	2600 3650 2600 3850
 Connection ~ 6950 2350
 Wire Wire Line
-	5950 2250 5950 2150
+	5950 1950 5950 2350
 Connection ~ 3750 2150
 Connection ~ 3750 2050
 Connection ~ 6250 1650
@@ -537,8 +570,6 @@ Wire Wire Line
 	5950 2650 5950 2850
 Connection ~ 5950 2250
 Connection ~ 5950 2150
-Wire Wire Line
-	5950 1950 5950 2350
 Wire Wire Line
 	5950 1250 6250 1250
 Connection ~ 3300 2550
@@ -578,21 +609,6 @@ Wire Wire Line
 	2850 5750 2550 5750
 Wire Wire Line
 	2850 6000 2550 6000
-Text Notes 2750 5600 0    60   ~ 0
-USB connector and data lines\n
-Text Notes 2650 1550 0    60   ~ 0
-USB Power to IC
-$Comp
-L BATTERY BT1
-U 1 1 550477FF
-P 5250 4650
-F 0 "BT1" H 5250 4850 50  0000 C CNN
-F 1 "BATTERY" H 5250 4460 50  0000 C CNN
-F 2 "" H 5250 4650 60  0000 C CNN
-F 3 "" H 5250 4650 60  0000 C CNN
-	1    5250 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3950 3700 4050
 Wire Wire Line
@@ -601,42 +617,122 @@ Wire Wire Line
 	4450 3950 4450 4650
 Wire Wire Line
 	4450 4650 4950 4650
-$Comp
-L GND #PWR11
-U 1 1 55047918
-P 5800 4650
-F 0 "#PWR11" H 5800 4400 60  0001 C CNN
-F 1 "GND" H 5800 4500 60  0000 C CNN
-F 2 "" H 5800 4650 60  0000 C CNN
-F 3 "" H 5800 4650 60  0000 C CNN
-	1    5800 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 4650 6000 4650
-$Comp
-L C C13
-U 1 1 550479A6
-P 4800 4850
-F 0 "C13" H 4850 4950 50  0000 L CNN
-F 1 "4.7U" H 4850 4750 50  0000 L CNN
-F 2 "" H 4838 4700 30  0000 C CNN
-F 3 "" H 4800 4850 60  0000 C CNN
-	1    4800 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 5050 6000 5050
 Wire Wire Line
 	6000 5050 6000 4650
 Connection ~ 5800 4650
-Text Notes 2150 6550 0    60   ~ 0
-AN00046 recommends \nferrite beads on USB inputs\nConsider with connection\nto size requirements
-Text Notes 4900 4250 0    60   ~ 0
-Choose values for the capacitors,\ninductors and resistors\naccording to BQ2501x datasheet\nand final power requirements.\nRemember to modify the circuit \nfor connection to the uC and for \nspecific BQ2501x part
 Connection ~ 2550 5750
 Connection ~ 2550 6000
 Connection ~ 4700 4150
 Connection ~ 4800 4650
 Connection ~ 4950 4650
+$Comp
+L TESTPAD TP3
+U 1 1 5506D7F2
+P 1750 1150
+F 0 "TP3" H 2000 1150 60  0000 C CNN
+F 1 "TESTPAD" H 1800 950 60  0001 C CNN
+F 2 "" H 2000 1150 60  0000 C CNN
+F 3 "" H 2000 1150 60  0000 C CNN
+	1    1750 1150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1150 1900 1150
+Wire Wire Line
+	1900 1150 1900 1000
+Connection ~ 1900 1000
+NoConn ~ 2600 3550
+NoConn ~ 3700 4350
+Wire Wire Line
+	3700 4250 3900 4250
+Wire Wire Line
+	3900 4250 3900 4500
+Wire Wire Line
+	3900 4500 3950 4500
+Text GLabel 1550 4800 0    60   Input ~ 0
+USB_VBUS
+Text GLabel 3200 1350 0    60   Input ~ 0
+USB_VBUS
+Text HLabel 2850 5750 2    60   Input ~ 0
+USB_DP
+Text HLabel 2850 6000 2    60   Input ~ 0
+USB_DN
+Text HLabel 3850 3450 2    60   Input ~ 0
+PG
+Wire Wire Line
+	3700 3550 3850 3550
+Wire Wire Line
+	3850 3550 3850 3450
+Text HLabel 3950 4500 2    60   Input ~ 0
+ISET
+Text HLabel 2500 4050 0    60   Input ~ 0
+STAT1
+Text HLabel 2500 4150 0    60   Input ~ 0
+STAT2
+Wire Wire Line
+	2600 4050 2500 4050
+Wire Wire Line
+	2500 4150 2600 4150
+$Comp
+L R R6
+U 1 1 5507251D
+P 850 3950
+F 0 "R6" V 930 3950 50  0000 C CNN
+F 1 "1K" V 857 3951 50  0000 C CNN
+F 2 "" V 780 3950 30  0000 C CNN
+F 3 "" H 850 3950 30  0000 C CNN
+	1    850  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR013
+U 1 1 55072596
+P 850 3600
+F 0 "#PWR013" H 850 3450 60  0001 C CNN
+F 1 "+3V3" H 850 3740 60  0000 C CNN
+F 2 "" H 850 3600 60  0000 C CNN
+F 3 "" H 850 3600 60  0000 C CNN
+	1    850  3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4250 850  4250
+Wire Wire Line
+	850  4250 850  4200
+Wire Wire Line
+	850  3700 850  3600
+$Comp
+L TESTPAD TP4
+U 1 1 55072D4F
+P 1650 4600
+F 0 "TP4" H 1900 4600 60  0000 C CNN
+F 1 "TESTPAD" H 1700 4400 60  0001 C CNN
+F 2 "" H 1900 4600 60  0000 C CNN
+F 3 "" H 1900 4600 60  0000 C CNN
+	1    1650 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4800 1650 4600
+$Comp
+L TESTPAD TP5
+U 1 1 550731F6
+P 1650 5500
+F 0 "TP5" H 1900 5500 60  0000 C CNN
+F 1 "TESTPAD" H 1700 5300 60  0001 C CNN
+F 2 "" H 1900 5500 60  0000 C CNN
+F 3 "" H 1900 5500 60  0000 C CNN
+	1    1650 5500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1650 5400
+NoConn ~ 2650 5100
+Text HLabel 3800 3850 2    60   Input ~ 0
+CE
+Wire Wire Line
+	3800 3850 3700 3850
 $EndSCHEMATC
