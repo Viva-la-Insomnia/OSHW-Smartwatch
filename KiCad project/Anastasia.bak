@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "Smartwatch"
 Date "14 March 2015"
 Rev "1.0"
@@ -100,5 +100,13 @@ F5 "REQN" I L 4800 2950 60
 F6 "MOSI" I L 4800 3100 60 
 F7 "MISO" I L 4800 3200 60 
 F8 "SCK" I R 6050 3200 60 
+$EndSheet
+$Sheet
+S 1100 3600 1250 1050
+U 550790E4
+F0 "EEPROM" 60
+F1 "Sheet6.sch" 60
+F2 "MEM_SCL" I L 1100 3900 60 
+F3 "MEM_SDA" I L 1100 4250 60 
 $EndSheet
 $EndSCHEMATC
