@@ -1,15 +1,16 @@
-Microcontroller deep sleep	0,0011mAh
-MC sleep mode	3,84mAh
-MC full use	10,5mAh
-BLE	0,25mAh
-Battery gauge IC	0,001mAh
-IC for saving measurements	0,05mAh
-Oximetry IC	0,05mAh
-Oximetry LED setup	???mAh
-Screen 1Hz	0,004mAh
-Screen 30Hz	0,186mAh
-Screen LED	???mAh
-IMU	4,25mAh
+Microcontroller deep sleep	0,0011mA
+MC sleep mode	3,84mA
+MC full use	10,5mA
+BLE average	0,25mA
+BLE max	10mA
+Battery gauge IC	0,001mA
+IC for saving measurements	0,05mA
+Oximetry IC	0,05mA
+Oximetry LED setup max	20mAh
+Screen 1Hz	0,004mA
+Screen 30Hz	0,186mA
+Screen LED max	40mA
+IMU	4,25mA
 	
 Total (idle) NO LEDS	0,3561mAh
-Total (full consumption) NO LEDS	15,287mAh
+Total (full consumption)	85mAh
