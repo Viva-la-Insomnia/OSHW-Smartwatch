@@ -3,10 +3,10 @@
 NOTE: May need to redesign that as two separate ICs to save power
 3. nRF8001 Bluetooth LE IC
 4. AT24CM01 EEPROM IC - for saving the readings of oximeter&IMU
-5. Pulse oximetry - AFE4403 or AFE4490 IC-based
+5. Pulse oximetry - AFE4403 IC-based
 6. MPU-9150 IMU - gyroscope, accelerometer, magnetometer
 7. Li-ion battery - 150-300 mAh
 8. Sharp LS013B4DN04 memory display (1.3 inches diagonal)
 9. Micro USB connector in prototype, possibly Type-C in the finalised model
 10. Side buttons
-11. Battery fuel gauge IC?
+11. bq27421-G1 Battery fuel gauge IC
