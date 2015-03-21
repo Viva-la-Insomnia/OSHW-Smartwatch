@@ -435,11 +435,7 @@ Wire Wire Line
 	2950 4150 3700 4150
 Wire Wire Line
 	3700 4150 3700 4350
-Wire Wire Line
-	3700 4350 4300 4350
 Connection ~ 3150 4450
-Wire Wire Line
-	3550 4450 4500 4450
 Connection ~ 3550 4450
 $Comp
 L DIODE D1
@@ -453,11 +449,7 @@ F 3 "" H 2350 3150 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2350 3400 3200 3400
-Wire Wire Line
-	2350 3400 2350 3350
-Wire Wire Line
-	2550 3300 3300 3300
+	2350 3350 2350 3450
 Wire Wire Line
 	2550 3300 2550 2950
 Wire Wire Line
@@ -488,8 +480,6 @@ Wire Wire Line
 	3200 3400 3200 3500
 Wire Wire Line
 	3200 3500 4650 3500
-Wire Wire Line
-	4650 3600 2100 3600
 Wire Wire Line
 	2100 3600 2100 2850
 Wire Wire Line
@@ -622,4 +612,124 @@ F 3 "" H 7500 2050 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7250 2250 7800 2250
+Wire Wire Line
+	3550 4450 3700 4450
+$Comp
+L TESTPAD TP25
+U 1 1 550E81F4
+P 3700 4350
+F 0 "TP25" H 3950 4350 60  0000 C CNN
+F 1 "TESTPAD" H 3750 4150 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3950 4350 60  0001 C CNN
+F 3 "" H 3950 4350 60  0000 C CNN
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPAD TP27
+U 1 1 550E821D
+P 3700 4450
+F 0 "TP27" H 3950 4450 60  0000 C CNN
+F 1 "TESTPAD" H 3750 4250 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3950 4450 60  0001 C CNN
+F 3 "" H 3950 4450 60  0000 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPAD TP26
+U 1 1 550E8236
+P 4300 4350
+F 0 "TP26" H 4550 4350 60  0000 C CNN
+F 1 "TESTPAD" H 4350 4150 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4550 4350 60  0001 C CNN
+F 3 "" H 4550 4350 60  0000 C CNN
+	1    4300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L TESTPAD TP28
+U 1 1 550E8251
+P 4500 4450
+F 0 "TP28" H 4750 4450 60  0000 C CNN
+F 1 "TESTPAD" H 4550 4250 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4750 4450 60  0001 C CNN
+F 3 "" H 4750 4450 60  0000 C CNN
+	1    4500 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 4500 4450
+Connection ~ 4300 4350
+Connection ~ 3700 4350
+Connection ~ 3700 4450
+Wire Wire Line
+	4650 3600 3200 3600
+$Comp
+L TESTPAD TP20
+U 1 1 550E8502
+P 3300 3300
+F 0 "TP20" H 3550 3300 60  0000 C CNN
+F 1 "TESTPAD" H 3350 3100 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 3300 60  0001 C CNN
+F 3 "" H 3550 3300 60  0000 C CNN
+	1    3300 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TESTPAD TP21
+U 1 1 550E8529
+P 3200 3400
+F 0 "TP21" H 3450 3400 60  0000 C CNN
+F 1 "TESTPAD" H 3250 3200 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 3400 60  0001 C CNN
+F 3 "" H 3450 3400 60  0000 C CNN
+	1    3200 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TESTPAD TP24
+U 1 1 550E8546
+P 3200 3600
+F 0 "TP24" H 3450 3600 60  0000 C CNN
+F 1 "TESTPAD" H 3250 3400 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3450 3600 60  0001 C CNN
+F 3 "" H 3450 3600 60  0000 C CNN
+	1    3200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L TESTPAD TP23
+U 1 1 550E8563
+P 2100 3600
+F 0 "TP23" H 2350 3600 60  0000 C CNN
+F 1 "TESTPAD" H 2150 3400 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2350 3600 60  0001 C CNN
+F 3 "" H 2350 3600 60  0000 C CNN
+	1    2100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPAD TP22
+U 1 1 550E8584
+P 2350 3450
+F 0 "TP22" H 2600 3450 60  0000 C CNN
+F 1 "TESTPAD" H 2400 3250 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2600 3450 60  0001 C CNN
+F 3 "" H 2600 3450 60  0000 C CNN
+	1    2350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPAD TP19
+U 1 1 550E859D
+P 2600 3300
+F 0 "TP19" H 2850 3300 60  0000 C CNN
+F 1 "TESTPAD" H 2650 3100 60  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2850 3300 60  0001 C CNN
+F 3 "" H 2850 3300 60  0000 C CNN
+	1    2600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3300 2550 3300
 $EndSCHEMATC

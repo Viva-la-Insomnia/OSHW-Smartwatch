@@ -18,8 +18,6 @@
     (1 In1.Cu power)
     (2 In2.Cu power)
     (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -28,14 +26,8 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user)
-    (47 F.CrtYd user)
-    (48 B.Fab user)
-    (49 F.Fab user)
   )
 
   (setup
@@ -722,7 +714,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E60)
-    (at 85 77)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /55046F13/550474FF)
@@ -809,7 +801,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E72)
-    (at 91 80)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /55046F13/55085D1A)
@@ -838,7 +830,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E78)
-    (at 79 79)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504D17E/5504D769)
@@ -867,7 +859,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E7E)
-    (at 83 84)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504D17E/5504D74C)
@@ -896,7 +888,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E84)
-    (at 72 78)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504D17E/5504D3F7)
@@ -925,7 +917,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E8A)
-    (at 89 85)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504D17E/5504D470)
@@ -954,7 +946,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E90)
-    (at 94 85)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504DA44/5504E2C2)
@@ -983,7 +975,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E96)
-    (at 98 84)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504DA44/5504DF2D)
@@ -1012,7 +1004,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6E9C)
-    (at 71 85)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504DA44/5504E476)
@@ -1041,7 +1033,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EA2)
-    (at 77 85)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5504DA44/5504E266)
@@ -1070,7 +1062,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EA8)
-    (at 81 90)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /55054148/55054683)
@@ -1099,7 +1091,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EAE)
-    (at 95 78)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /55054148/55054724)
@@ -1128,7 +1120,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EB4)
-    (at 65 84)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507F407)
@@ -1157,7 +1149,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EBA)
-    (at 102 89)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507FE21)
@@ -1186,7 +1178,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EC0)
-    (at 88 73)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/550D75B9)
@@ -1215,7 +1207,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EC6)
-    (at 57 83)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/550D75A0)
@@ -1244,7 +1236,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6ECC)
-    (at 59 89)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507EE30)
@@ -1273,7 +1265,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6ED2)
-    (at 55 78)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507EAF1)
@@ -1302,7 +1294,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6ED8)
-    (at 65 93)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507F067)
@@ -1331,7 +1323,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EDE)
-    (at 72 94)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507EA21)
@@ -1360,7 +1352,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EE4)
-    (at 76 96)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507E652)
@@ -1389,7 +1381,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EEA)
-    (at 89 93)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5507E4D4/5507E675)
@@ -1418,7 +1410,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EF0)
-    (at 95 95)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /550556D4/550557D1)
@@ -1447,7 +1439,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 550C6EF6)
-    (at 82 96)
+    (at 86 63.050001)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /550556D4/55055963)
@@ -2760,7 +2752,7 @@
   )
 
   (module Anastasia:DSBGA9 (layer F.Cu) (tedit 550BD31E) (tstamp 550C707E)
-    (at 64 78)
+    (at 86 63.050001)
     (path /55046F13/550850D9)
     (fp_text reference U3 (at 0.25 2) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
@@ -2933,7 +2925,7 @@
   )
 
   (module Anastasia:DSBGA36 (layer F.Cu) (tedit 5509E603) (tstamp 550C70E9)
-    (at 106 82)
+    (at 86 63.050001)
     (path /5507E4D4/5507E4DD)
     (fp_text reference U7 (at 0 2.95) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.2)))
