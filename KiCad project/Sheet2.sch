@@ -206,4 +206,12 @@ $EndComp
 Wire Wire Line
 	5950 2700 5950 2500
 Connection ~ 5950 2500
+Connection ~ 5950 2700
+Connection ~ 5350 2700
+Connection ~ 7150 2400
+Connection ~ 7150 2300
+Text HLabel 6900 1700 0    60   Input ~ 0
+PA8
+Wire Wire Line
+	7150 1700 6900 1700
 $EndSCHEMATC

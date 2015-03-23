@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 21/03/2015 13:21:40
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 22/03/2015 17:21:59
 
 BeginCmp
 TimeStamp = /55046F13/550477FF;
@@ -225,7 +225,7 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5507E4D4/5507F067;
+TimeStamp = /5507E4D4/550F3E12;
 Reference = C32;
 ValeurCmp = 0.1U;
 IdModule  = Capacitors_SMD:C_0603;
@@ -715,10 +715,10 @@ IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /5507E4D4/5507E4DD;
+TimeStamp = /5507E4D4/550EDC1C;
 Reference = U7;
-ValeurCmp = AFE4403;
-IdModule  = Anastasia:DSBGA36;
+ValeurCmp = AFE4490;
+IdModule  = Anastasia:QFN40;
 EndCmp
 
 BeginCmp
@@ -743,10 +743,10 @@ IdModule  = Anastasia:2x1.6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5507E4D4/5507E5E4;
+TimeStamp = /5507E4D4/550F58F0;
 Reference = X3;
-ValeurCmp = CRYSTAL_8MHZ_SMD;
-IdModule  = Anastasia:5x3.2_Crystal_SMD;
+ValeurCmp = CRYSTAL;
+IdModule  = Crystals:Crystal_Round_Horizontal_3mm;
 EndCmp
 
 BeginCmp

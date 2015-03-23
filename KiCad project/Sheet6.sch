@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 10
 Title "AT24C1024"
 Date "16 March 2015"
 Rev "1.0"
