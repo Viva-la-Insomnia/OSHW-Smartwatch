@@ -214,4 +214,8 @@ Text HLabel 6900 1700 0    60   Input ~ 0
 PA8
 Wire Wire Line
 	7150 1700 6900 1700
+Text HLabel 6900 1100 0    60   3State ~ 0
+PA0
+Wire Wire Line
+	7150 1100 6900 1100
 $EndSCHEMATC

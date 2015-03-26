@@ -450,7 +450,7 @@ U 1 1 5506D7F2
 P 1750 1150
 F 0 "TP12" H 2000 1150 60  0000 C CNN
 F 1 "TESTPAD" H 1800 950 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2000 1150 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 2000 1150 60  0001 C CNN
 F 3 "" H 2000 1150 60  0000 C CNN
 	1    1750 1150
 	-1   0    0    -1  
@@ -501,7 +501,7 @@ U 1 1 55072D4F
 P 1650 4600
 F 0 "TP14" H 1900 4600 60  0000 C CNN
 F 1 "TESTPAD" H 1700 4400 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 4600 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 1900 4600 60  0001 C CNN
 F 3 "" H 1900 4600 60  0000 C CNN
 	1    1650 4600
 	-1   0    0    -1  
@@ -512,7 +512,7 @@ U 1 1 550731F6
 P 1650 5500
 F 0 "TP15" H 1900 5500 60  0000 C CNN
 F 1 "TESTPAD" H 1700 5300 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1900 5500 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 1900 5500 60  0001 C CNN
 F 3 "" H 1900 5500 60  0000 C CNN
 	1    1650 5500
 	-1   0    0    -1  
@@ -863,7 +863,7 @@ U 1 1 550C93EA
 P 7100 5750
 F 0 "TP16" H 7350 5750 60  0000 C CNN
 F 1 "TESTPAD" H 7150 5550 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7350 5750 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 7350 5750 60  0001 C CNN
 F 3 "" H 7350 5750 60  0000 C CNN
 	1    7100 5750
 	0    -1   -1   0   
@@ -874,7 +874,7 @@ U 1 1 550CAB5D
 P 4800 3450
 F 0 "TP13" H 5050 3450 60  0000 C CNN
 F 1 "TESTPAD" H 4850 3250 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5050 3450 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 5050 3450 60  0001 C CNN
 F 3 "" H 5050 3450 60  0000 C CNN
 	1    4800 3450
 	1    0    0    -1  

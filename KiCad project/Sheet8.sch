@@ -60,18 +60,18 @@ Text HLabel 2650 1550 0    60   3State ~ 0
 I2C1_SDA
 Text HLabel 2650 1650 0    60   3State ~ 0
 I2C1_SCL
-Text HLabel 2650 3150 0    60   3State ~ 0
+Text HLabel 2650 1750 0    60   3State ~ 0
 I2C0_SDA
-Text HLabel 2650 3250 0    60   3State ~ 0
+Text HLabel 2650 1850 0    60   3State ~ 0
 I2C0_SCL
 Wire Wire Line
 	2650 1550 2800 1550
 Wire Wire Line
 	2800 1650 2650 1650
 Wire Wire Line
-	2650 3150 2800 3150
+	2650 1750 2800 1750
 Wire Wire Line
-	2650 3250 2800 3250
+	2650 1850 2800 1850
 Text HLabel 2650 2550 0    60   3State ~ 0
 US1_TX
 Text HLabel 2650 2650 0    60   3State ~ 0
@@ -102,10 +102,14 @@ Wire Wire Line
 	2150 1450 2800 1450
 Text HLabel 1650 3350 0    60   3State ~ 0
 PD8
-Text HLabel 1650 1750 0    60   3State ~ 0
-PC6
 Wire Wire Line
 	2800 3350 1650 3350
+Text HLabel 2600 3150 0    60   BiDi ~ 0
+PD6
+Text HLabel 2600 3250 0    60   BiDi ~ 0
+PD7
 Wire Wire Line
-	1650 1750 2800 1750
+	2800 3150 2600 3150
+Wire Wire Line
+	2600 3250 2800 3250
 $EndSCHEMATC

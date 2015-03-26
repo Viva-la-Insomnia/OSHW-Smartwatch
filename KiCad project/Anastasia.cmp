@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 22/03/2015 17:21:59
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 23/03/2015 19:43:19
 
 BeginCmp
 TimeStamp = /55046F13/550477FF;
@@ -480,196 +480,196 @@ BeginCmp
 TimeStamp = /550D1F0B;
 Reference = TP1;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D1F40;
 Reference = TP2;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D1F5F;
 Reference = TP3;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D1F7E;
 Reference = TP4;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D353F;
 Reference = TP5;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D3564;
 Reference = TP6;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D3AEA;
 Reference = TP7;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D3905;
 Reference = TP8;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D3920;
 Reference = TP9;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D3583;
 Reference = TP10;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550D359E;
 Reference = TP11;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /55046F13/5506D7F2;
 Reference = TP12;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /55046F13/550CAB5D;
 Reference = TP13;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /55046F13/55072D4F;
 Reference = TP14;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /55046F13/550731F6;
 Reference = TP15;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /55046F13/550C93EA;
 Reference = TP16;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550556D4/5506B344;
 Reference = TP17;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /550556D4/5506B35D;
 Reference = TP18;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E859D;
 Reference = TP19;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8502;
 Reference = TP20;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8529;
 Reference = TP21;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8584;
 Reference = TP22;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8563;
 Reference = TP23;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8546;
 Reference = TP24;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E81F4;
 Reference = TP25;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8236;
 Reference = TP26;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E821D;
 Reference = TP27;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550E8251;
 Reference = TP28;
 ValeurCmp = TESTPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp

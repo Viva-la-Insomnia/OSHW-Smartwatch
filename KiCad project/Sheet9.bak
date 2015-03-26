@@ -86,4 +86,8 @@ Wire Wire Line
 	5250 2700 5400 2700
 Wire Wire Line
 	5250 2800 5400 2800
+Text HLabel 5200 2900 0    60   3State ~ 0
+PF2
+Wire Wire Line
+	5200 2900 5400 2900
 $EndSCHEMATC

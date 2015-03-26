@@ -320,9 +320,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 2800 9950 3950
 Wire Wire Line
-	9950 3950 5150 3950
-Wire Wire Line
-	5150 3950 5150 3000
+	9950 3950 4900 3950
 $Comp
 L C C46
 U 1 1 55068A29
@@ -557,7 +555,7 @@ U 1 1 5506B344
 P 6350 2800
 F 0 "TP17" H 6600 2800 60  0000 C CNN
 F 1 "TESTPAD" H 6400 2600 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6600 2800 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 6600 2800 60  0001 C CNN
 F 3 "" H 6600 2800 60  0000 C CNN
 	1    6350 2800
 	1    0    0    -1  
@@ -568,7 +566,7 @@ U 1 1 5506B35D
 P 6350 2900
 F 0 "TP18" H 6600 2900 60  0000 C CNN
 F 1 "TESTPAD" H 6400 2700 60  0001 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6600 2900 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 6600 2900 60  0001 C CNN
 F 3 "" H 6600 2900 60  0000 C CNN
 	1    6350 2900
 	1    0    0    -1  
@@ -611,4 +609,8 @@ Connection ~ 9700 3950
 Connection ~ 9500 4350
 Connection ~ 9250 4350
 Connection ~ 9700 4350
+Wire Wire Line
+	4900 3950 4900 3000
+Wire Wire Line
+	4900 3000 5150 3000
 $EndSCHEMATC
