@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 8 10
 Title "uC part C"
 Date "17 March 2015"
 Rev "1.0"
@@ -90,4 +90,12 @@ Text HLabel 5200 2900 0    60   3State ~ 0
 PF2
 Wire Wire Line
 	5200 2900 5400 2900
+Text HLabel 5250 1850 0    60   3State ~ 0
+PE9
+Wire Wire Line
+	5400 1850 5250 1850
+Text HLabel 5250 1750 0    60   3State ~ 0
+PE8
+Wire Wire Line
+	5400 1750 5250 1750
 $EndSCHEMATC

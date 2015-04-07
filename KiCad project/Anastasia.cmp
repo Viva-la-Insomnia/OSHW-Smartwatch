@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 23/03/2015 19:43:19
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 05/04/2015 18:58:19
 
 BeginCmp
 TimeStamp = /55046F13/550477FF;
@@ -347,21 +347,21 @@ BeginCmp
 TimeStamp = /5507E4D4/5507F689;
 Reference = D1;
 ValeurCmp = PHOTODIODE;
-IdModule  = ;
+IdModule  = Anastasia:BPW34S;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/550800F9;
 Reference = D2;
 ValeurCmp = RED_LED;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5507E4D4/5508011C;
 Reference = D3;
 ValeurCmp = IR_LED;
-IdModule  = ;
+IdModule  = Anastasia:2x1.25mm_LED;
 EndCmp
 
 BeginCmp
@@ -437,7 +437,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55046F13/55047512;
 Reference = R3;
-ValeurCmp = 1K6;
+ValeurCmp = 4K7;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -477,45 +477,31 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /550D1F0B;
-Reference = TP1;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
+TimeStamp = /55081790/552132FE;
+Reference = SW1;
+ValeurCmp = SWITCH;
+IdModule  = Anastasia:KMS_SMD_SW;
 EndCmp
 
 BeginCmp
-TimeStamp = /550D1F40;
-Reference = TP2;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
+TimeStamp = /55081790/55213389;
+Reference = SW2;
+ValeurCmp = SWITCH;
+IdModule  = Anastasia:KMS_SMD_SW;
 EndCmp
 
 BeginCmp
-TimeStamp = /550D1F5F;
-Reference = TP3;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
+TimeStamp = /55081790/552132DD;
+Reference = SW3;
+ValeurCmp = SWITCH;
+IdModule  = Anastasia:KMS_SMD_SW;
 EndCmp
 
 BeginCmp
-TimeStamp = /550D1F7E;
-Reference = TP4;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /550D353F;
-Reference = TP5;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /550D3564;
-Reference = TP6;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
+TimeStamp = /5504D17E/55214730;
+Reference = SW4;
+ValeurCmp = SWITCH;
+IdModule  = Anastasia:KMS_SMD_SW;
 EndCmp
 
 BeginCmp
@@ -526,64 +512,8 @@ IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = /550D3905;
-Reference = TP8;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /550D3920;
-Reference = TP9;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /550D3583;
-Reference = TP10;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
 TimeStamp = /550D359E;
 Reference = TP11;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /55046F13/5506D7F2;
-Reference = TP12;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /55046F13/550CAB5D;
-Reference = TP13;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /55046F13/55072D4F;
-Reference = TP14;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /55046F13/550731F6;
-Reference = TP15;
-ValeurCmp = TESTPAD;
-IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = /55046F13/550C93EA;
-Reference = TP16;
 ValeurCmp = TESTPAD;
 IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
@@ -673,7 +603,7 @@ IdModule  = Anastasia:Test_Point_Round-SMD-Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = /55046F13/550474D0;
+TimeStamp = /5504D17E/5504D189;
 Reference = U1;
 ValeurCmp = EFM32GG332;
 IdModule  = Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm;

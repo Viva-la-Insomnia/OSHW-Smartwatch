@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title "uC part B"
 Date "17 March 2015"
 Rev "1.0"
@@ -96,10 +96,6 @@ Wire Wire Line
 	1900 2950 2800 2950
 Wire Wire Line
 	2800 3050 1900 3050
-Text HLabel 2150 1450 0    60   3State ~ 0
-PC3
-Wire Wire Line
-	2150 1450 2800 1450
 Text HLabel 1650 3350 0    60   3State ~ 0
 PD8
 Wire Wire Line
@@ -112,4 +108,77 @@ Wire Wire Line
 	2800 3150 2600 3150
 Wire Wire Line
 	2600 3250 2800 3250
+Wire Wire Line
+	2150 1150 2800 1150
+$Comp
+L SWITCH SW3
+U 1 1 552132DD
+P 1450 950
+F 0 "SW3" H 1450 1050 50  0000 C CNN
+F 1 "SWITCH" H 1450 850 50  0000 C CNN
+F 2 "Anastasia:KMS_SMD_SW" H 1450 950 60  0001 C CNN
+F 3 "" H 1450 950 60  0000 C CNN
+	1    1450 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH SW1
+U 1 1 552132FE
+P 1450 1300
+F 0 "SW1" H 1450 1400 50  0000 C CNN
+F 1 "SWITCH" H 1450 1200 50  0000 C CNN
+F 2 "Anastasia:KMS_SMD_SW" H 1450 1300 60  0001 C CNN
+F 3 "" H 1450 1300 60  0000 C CNN
+	1    1450 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SWITCH SW2
+U 1 1 55213389
+P 1450 1650
+F 0 "SW2" H 1450 1750 50  0000 C CNN
+F 1 "SWITCH" H 1450 1550 50  0000 C CNN
+F 2 "Anastasia:KMS_SMD_SW" H 1450 1650 60  0001 C CNN
+F 3 "" H 1450 1650 60  0000 C CNN
+	1    1450 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1350 2800 1350
+Wire Wire Line
+	2100 1450 2800 1450
+$Comp
+L GND #PWR030
+U 1 1 5521388B
+P 650 1350
+F 0 "#PWR030" H 650 1100 60  0001 C CNN
+F 1 "GND" H 650 1200 60  0000 C CNN
+F 2 "" H 650 1350 60  0000 C CNN
+F 3 "" H 650 1350 60  0000 C CNN
+	1    650  1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1300 650  1350
+Wire Wire Line
+	650  1300 950  1300
+Wire Wire Line
+	800  1100 800  1800
+Connection ~ 800  1300
+Wire Wire Line
+	2100 1450 2100 1650
+Wire Wire Line
+	2100 1650 1950 1650
+Wire Wire Line
+	2150 1150 2150 950 
+Wire Wire Line
+	2150 950  1950 950 
+Wire Wire Line
+	1950 1450 2050 1450
+Wire Wire Line
+	2050 1450 2050 1350
+Wire Wire Line
+	800  1800 950  1800
+Wire Wire Line
+	950  1100 800  1100
 $EndSCHEMATC

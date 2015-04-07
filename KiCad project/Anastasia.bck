@@ -8,4 +8,9 @@ $CMP EFM32GG332
 D ARM Cortex-M3 48MHz Low-Power UC 32kB RAM 64-256kB Flash
 $ENDCMP
 #
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
 #End Doc Library
