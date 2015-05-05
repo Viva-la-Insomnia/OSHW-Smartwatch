@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -90,8 +89,10 @@ $Comp
 L C C24
 U 1 1 55054683
 P 5250 1850
+AR Path="/55054683" Ref="C24"  Part="1" 
+AR Path="/55054148/55054683" Ref="C24"  Part="1" 
 F 0 "C24" H 5300 1950 50  0000 L CNN
-F 1 "0.1U" H 5300 1750 50  0000 L CNN
+F 1 "100N" H 5300 1750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5288 1700 30  0001 C CNN
 F 3 "" H 5250 1850 60  0000 C CNN
 	1    5250 1850
@@ -102,6 +103,8 @@ $Comp
 L C C25
 U 1 1 55054724
 P 5600 1850
+AR Path="/55054724" Ref="C25"  Part="1" 
+AR Path="/55054148/55054724" Ref="C25"  Part="1" 
 F 0 "C25" H 5650 1950 50  0000 L CNN
 F 1 "2U" H 5650 1750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5638 1700 30  0001 C CNN
@@ -117,7 +120,7 @@ Connection ~ 5850 1950
 Wire Wire Line
 	5700 1400 4950 1400
 Wire Wire Line
-	5250 1400 5250 1650
+	5250 1400 5250 1700
 Text HLabel 5550 1300 0    60   Input ~ 0
 DISP_CS
 Text HLabel 5550 1200 0    60   Input ~ 0
@@ -148,4 +151,10 @@ Connection ~ 5250 1400
 Connection ~ 5850 1350
 NoConn ~ 5850 1450
 Connection ~ 5600 1650
+Wire Wire Line
+	5600 1700 5600 1650
+Wire Wire Line
+	5600 2000 5600 2050
+Wire Wire Line
+	5250 2050 5250 2000
 $EndSCHEMATC

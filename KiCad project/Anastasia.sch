@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -176,8 +175,8 @@ Wire Wire Line
 	7900 2600 8150 2600
 Connection ~ 7900 1900
 Wire Wire Line
-	7750 2700 8150 2700
-Connection ~ 7750 2100
+	7800 2700 8150 2700
+Connection ~ 7800 2100
 Wire Wire Line
 	4200 2850 4650 2850
 Wire Wire Line
@@ -199,17 +198,17 @@ $EndComp
 $Comp
 L TESTPAD TP7
 U 1 1 550D3AEA
-P 7600 2350
-F 0 "TP7" H 7850 2350 60  0000 C CNN
-F 1 "TESTPAD" H 7650 2150 60  0001 C CNN
-F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 7850 2350 60  0001 C CNN
-F 3 "" H 7850 2350 60  0000 C CNN
-	1    7600 2350
+P 7650 2350
+F 0 "TP7" H 7900 2350 60  0000 C CNN
+F 1 "TESTPAD" H 7700 2150 60  0001 C CNN
+F 2 "Anastasia:Test_Point_Round-SMD-Pad" H 7900 2350 60  0001 C CNN
+F 3 "" H 7900 2350 60  0000 C CNN
+	1    7650 2350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7600 2350 7600 2000
-Connection ~ 7600 2000
+	7650 2350 7650 2000
+Connection ~ 7650 2000
 Wire Wire Line
 	2900 4100 2650 4100
 Wire Wire Line
@@ -219,11 +218,11 @@ Wire Wire Line
 Wire Wire Line
 	8150 1650 7550 1650
 Wire Wire Line
-	8150 1450 7950 1450
+	8150 1450 8050 1450
 Wire Wire Line
-	7950 1450 7950 850 
+	8050 1450 8050 850 
 Wire Wire Line
-	7950 850  9700 850 
+	8050 850  9700 850 
 Wire Wire Line
 	9700 850  9700 4100
 Wire Wire Line
@@ -266,11 +265,11 @@ Wire Wire Line
 Wire Wire Line
 	6350 2150 6400 2150
 Wire Wire Line
-	6400 2000 6150 2000
+	6400 2000 6250 2000
 Wire Wire Line
-	6150 2000 6150 3450
+	6250 2000 6250 3450
 Wire Wire Line
-	6150 3450 8150 3450
+	6250 3450 8150 3450
 Wire Wire Line
 	4200 4250 4450 4250
 Wire Wire Line
@@ -290,13 +289,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 4700 4200 4700
 Wire Wire Line
-	4200 4850 6050 4850
+	4200 4850 6100 4850
 Wire Wire Line
-	6050 4850 6050 1850
+	6100 4850 6100 1850
 Wire Wire Line
-	6050 1850 5900 1850
+	6100 1850 5900 1850
 Wire Wire Line
-	7750 2100 7750 2700
+	7800 2100 7800 2700
 Wire Wire Line
 	4150 2150 4250 2150
 Wire Wire Line
