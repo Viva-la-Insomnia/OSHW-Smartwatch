@@ -13,7 +13,7 @@ Features of the project:
  - Bluetooth Low-Energy interface
  - Inertial Measurement Unit (Accelerometer, Gyroscope, Magnetometer)
  - Sharp low-power memory display
- - Separate I2C EEPROM memory (up to 1MB in the current iteration)
+ - Separate I2C EEPROM memory (up to 1MB in the current iteration)(flash in the final version)
 
 Consult the BOM for exact parts we're using
 
