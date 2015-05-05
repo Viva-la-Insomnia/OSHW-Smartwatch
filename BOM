@@ -1,0 +1,69 @@
+1. EFM32GG332F1024 / SiLabs Low-power Cortex-M3 uC
+2. Battery controller and buck power converter - BQ2501x
+3. nRF8001 Bluetooth LE IC
+4. AT24CM01 EEPROM IC - for saving the readings of oximeter&IMU
+5. Pulse oximetry - AFE4490 IC-based
+6. MPU-9250 IMU - gyroscope, accelerometer, magnetometer
+7. Li-ion battery - 150-400 mAh
+8. Sharp LS013B4DN04 memory display (1.3 inches diagonal)
+9. Micro USB connector in prototype, possibly Type-C in the finalised model
+10. Side buttons x4 
+11. bq27421-G1 Battery fuel gauge IC
+
+BOM we use to make the prototype:
+
+EFM32GG332F1024 TQFP64 - 1pcs - http://fi.mouser.com/ProductDetail/Silicon-Labs/EFM32GG332F1024-QFP64T/?qs=sGAEpiMZZMuoKKEcg8mMKBN3KfvXoKGCl7S%252bSaUyEpQ%3d
+BQ25010 - 1pcs - http://fi.mouser.com/ProductDetail/Texas-Instruments/BQ25010RHLR/?qs=sGAEpiMZZMuo%252bmZx5g6tFJtUuH1%252bk1UR
+BQ27421 - 1pcs - http://fi.mouser.com/ProductDetail/Texas-Instruments/BQ27421YZFR-G1A/?qs=sGAEpiMZZMtUKTCHc2CNRBHWJI%252bh9hDo
+IP4220CZ6 - 1pcs - http://fi.mouser.com/ProductDetail/NXP/IP4220CZ6125/?qs=%2fha2pyFadujlddshBpXkfc%2faM5OvUAgzUoAoHR%2fyFN0%3d
+MPU-9250 - 1pcs - http://www.ebay.com/itm/1-piece-New-Invensense-MP92-MPU925O-MPU-925O-MPU9250-MPU-9250-QFN24-IC-Chip-/271798468507?pt=LH_DefaultDomain_0&hash=item3f48737f9b
+AT24C256 - 1pcs - http://fi.mouser.com/ProductDetail/Atmel/AT24C256C-SSHL-B/?qs=sGAEpiMZZMuVhdAcoizlRdiRmWRLpaPECfe32%2fFLBz8%3d
+AFE4490 - 1pcs - http://fi.mouser.com/ProductDetail/Texas-Instruments/AFE4490RHAT/?qs=sGAEpiMZZMstUSIbdhr%2f%252bb76W%2fg7LJG%252b
+nRF8001 - 1pcs - http://fi.mouser.com/ProductDetail/Nordic-Semiconductor/nRF8001-R2Q32-T/?qs=sGAEpiMZZMsOFNBiu4ETe62lvoLsBzaL
+AB308 - 1pcs - http://fi.mouser.com/ProductDetail/ABRACON/AB308-8000MHZ/?qs=zLkLEWnxMJysivAwOAyVHA%3d%3d
+ABM11-48 - 1pcs - http://fi.mouser.com/ProductDetail/ABRACON/ABM11-48000MHZ-D2X-T3/?qs=sGAEpiMZZMsBj6bBr9Q9aVer1RMgfDjsO9qKlU2M16A%3d
+ABS05 - 1pcs - http://fi.mouser.com/ProductDetail/ABRACON/ABS05-32768KHZ-9-T/?qs=sGAEpiMZZMsBj6bBr9Q9abREzfOoC8%2f3dJjf4B8NS%2fU%3d
+402F160 - 1pcs - http://fi.mouser.com/ProductDetail/CTS-Electronic-Components/402F1601XIAT/?qs=sGAEpiMZZMsBj6bBr9Q9ac78gu03S0T12cp9voYcFlgmhvzznk4nwQ%3d%3d
+USB-Micro-B - 1pcs - http://fi.mouser.com/ProductDetail/Hirose-Electric/ZX62D-B-5PA8/?qs=%2fha2pyFadujikbZaSpxaePw22Or7uVu%252bO%252bG2sLKvgXY4Ywy2ow1yIQ%3d%3d
+Buttons - 4pcs - http://fi.mouser.com/ProductDetail/CK-Components/KMS223G-LFG/?qs=sGAEpiMZZMsgGjVA3toVBMpDvEGifESw4LycsOHOs7Y%3d
+IR LED - 1pcs - http://fi.mouser.com/ProductDetail/Kingbright/APT2012F3C/?qs=sGAEpiMZZMvAL21a%2fDhxMmxdndYEctwHEtQWy8XHVyE%3d
+Optosensor - 2pcs - http://fi.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/BPW-34-S-Z/?qs=sGAEpiMZZMtWNtIk7yMEsZEKXNTNxzvbGhZ2b1PJCyA%3d
+Red LED - 1pcs - http://fi.mouser.com/ProductDetail/Lumex/SML-LXFT0603SRC-TR/?qs=%2fha2pyFaduiE%252bXpuOmjJK%2fUbP98pl6IMjyG3Csm4mt7PiVWTsYur7g%3d%3d
+Display connector - 1pcs - http://fi.mouser.com/ProductDetail/Hirose-Connector/FH52-10S-05SH/?qs=sGAEpiMZZMs7i6cT6ogu4%2fl8m4M5tRUIjpz0dHsG7Bs%3d
+Ferrite - 1pcs - http://fi.mouser.com/ProductDetail/TDK/MPZ1608S260ATAH0/?qs=sGAEpiMZZMtdyQheitOmRTZ388B8hqsMAp2ZYPSiEND6ct0j7CW8SA%3d%3d
+8.2nH inductor - 2pcs - http://fi.mouser.com/ProductDetail/Johanson/L-14W8N2JV4E/?qs=%2fha2pyFadujD1yxHoEaIA%252bWmM5O603flZtoRRzsG%252bylqEj4fMRcmOg%3d%3d
+5.6nH inductor - 2pcs - http://fi.mouser.com/ProductDetail/Johanson/L-14W5N6JV4E/?qs=%2fha2pyFadujD1yxHoEaIA%252bWmM5O603flKSS4kdfJ2nUBvvwmN9mKjg%3d%3d
+3.9nH inductor - 2pcs - http://fi.mouser.com/ProductDetail/Panasonic/ELJ-RE3N9JFA/?qs=sGAEpiMZZMsg%252by3WlYCkUx1timcRUWyDK87EZwdso04%3d
+100uH inductor - 1pcs - http://fi.mouser.com/ProductDetail/Coilcraft/0805PS-104KLB/?qs=sGAEpiMZZMsg%252by3WlYCkU2kWFds1hA9DkgyDVV1C0P0%3d
+10uH inductor - 1pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/LQM18FN100M00D/?qs=sGAEpiMZZMsg%252by3WlYCkU3Sneaq2F0r845d7cjl6qGk%3d
+15nH inductor - 1pcs - http://fi.mouser.com/ProductDetail/EPCOS-TDK/B82496C3150J/?qs=sGAEpiMZZMsg%252by3WlYCkUwkmiFJnoZ0dd4fVDuEPsSI%3d
+100nF(0.1u) capacitor - 15pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GCM188R71H104KA57D/?qs=sGAEpiMZZMs0AnBnWHyRQL5pa%2fOmIg5iY8%252bLHnG3se8%3d
+1uF capacitor - 7pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R7YA105KA12D/?qs=sGAEpiMZZMs0AnBnWHyRQPacepmvTvAWhWvdb6KkJyw%3d
+4.7uF capacitor - 5pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R61A475KE15D/?qs=sGAEpiMZZMs0AnBnWHyRQKFZIQ7b73cdHAF%252bgbHp%252bTA%3d
+10u capacitor - 3pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R61A106KE69D/?qs=sGAEpiMZZMs0AnBnWHyRQIQ9GZ%252bR1NCaPZjWVMvlF0E%3d
+10n capacitor - 7pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GCM188R71H103KA37D/?qs=sGAEpiMZZMs0AnBnWHyRQL5pa%2fOmIg5iLfGh0p15V1A%3d
+2.2u capacitor - 3pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R71A225KE15D/?qs=sGAEpiMZZMs0AnBnWHyRQDFTY4LDw5b8BMZBV8tFzg8%3d
+0.47u capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GCM188R71E474KA64J/?qs=sGAEpiMZZMs0AnBnWHyRQHSMLfoHgeTXg2WpzthU1d8%3d
+10p capacitor - 6pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GQM1885C1H100GB01D/?qs=sGAEpiMZZMs0AnBnWHyRQLQNoGOj1O2sl3tKceEHIyk%3d
+9p capacitor - 3pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GQM1885C1H9R0CB01D/?qs=sGAEpiMZZMs0AnBnWHyRQLvtlKVhIYcUBi1r14TDT8M%3d
+2u capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R61E225KA12D/?qs=sGAEpiMZZMs0AnBnWHyRQCU2vL77avq8nkaDR9RpVi8%3d
+15p capacitor - 3pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GQM1885C1H150GB01D/?qs=sGAEpiMZZMs0AnBnWHyRQIXG%252btmnRlFpePLCiDbGvxY%3d
+1n capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GCM188R71H102KA37D/?qs=sGAEpiMZZMs0AnBnWHyRQL5pa%2fOmIg5iBYnVJgPZZyw%3d
+33n capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM188R71H333KA61D/?qs=sGAEpiMZZMs0AnBnWHyRQOK8EV8n4V50a5hy%2fYsQcTk%3d
+1.8n capacitor - 2pcs - http://fi.mouser.com/ProductDetail/TDK/CGJ3E2C0G1H182J080AA/?qs=FxQuwy19cyAf1kZY%2fYm9Og%3d%3d
+1.2n capacitor - 2pcs ­- http://fi.mouser.com/ProductDetail/TDK/CGJ3E2C0G1H122J080AA/?qs=FxQuwy19cyCOICh4Eye9JQ%3d%3d
+2.2n capacitor  - 2pcs - http://fi.mouser.com/ProductDetail/TDK/CGJ3E2C0G1H222J080AA/?qs=sGAEpiMZZMs0AnBnWHyRQFzBYxg9rzNc83ALZvq3qz0%3d
+30p capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM1885C1H300JA01D/?qs=sGAEpiMZZMs0AnBnWHyRQB%2fFTDmEwwNTAAqWF1gwQqk%3d
+47p capacitor - 2pcs - http://fi.mouser.com/ProductDetail/Murata-Electronics/GRM1885C1H470FA01D/?qs=sGAEpiMZZMs0AnBnWHyRQCld5UqfCmT5khwBQwHPUAI%3d
+1 resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW06031R00FKEA/?qs=sGAEpiMZZMvdGkrng054t31PCeLq98jFRnd9RhYoNBo%3d
+1k resistor - 3pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00FKEA/?qs=sGAEpiMZZMvdGkrng054t4HRUGKGWf0J6ze0GYclhZU%3d
+4k7 resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW06034K70FKEA/?qs=sGAEpiMZZMvdGkrng054tw79ugaueG8BNL0oOJ%2fY4mQ%3d
+15 resistor - 3pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW060315R0FKEB/?qs=sGAEpiMZZMvdGkrng054txEw7b1YnvGukFfwpRBlQCQ%3d 
+10k resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0FKEA/?qs=sGAEpiMZZMvdGkrng054t%252b8cnVAnHPZkqchqPaQRdrE%3d
+1m8 resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW06031M80JNEA/?qs=sGAEpiMZZMvdGkrng054t27YQJ%252bwbTvXggHVJK4Cpq4%3d
+22k resistor - 2pcs - http://fi.mouser.com/Passive-Components/Resistors/SMD-Resistors-Chip-Resistors/_/N-7h7yu?P=1yzmou6Z1yzekj0
+560k resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW0603560KJNEA/?qs=sGAEpiMZZMvdGkrng054t%252b8cnVAnHPZkIoK%2f3bHZ7sY%3d
+100k resistor - 2pcs - http://fi.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KFKEA/?qs=sGAEpiMZZMvdGkrng054tz1PN3csf7M2%2fnVet2rNmPY%3d
+FET - 1pcs - http://fi.mouser.com/ProductDetail/ON-Semiconductor/5LP01S-TL-E/?qs=sGAEpiMZZMshyDBzk1%2fWi5LYXAmq8rznsZWBZrpU19c%3d 
+DISPLAY – 1pcs - http://fi.mouser.com/ProductDetail/Sharp-Microelectronics/LS013B4DN04/?qs=sGAEpiMZZMv6Wlt51A2SLYIJoTtlRdFH
+BATTERY – 1pcs - http://www.ebay.com/itm/320713497426
