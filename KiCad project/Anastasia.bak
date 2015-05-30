@@ -306,4 +306,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 2050 4350 2850
 Connection ~ 4350 2850
+Text Notes 6900 5600 0    60   ~ 0
+Copyright Tuomas Tinus, Jimi Järvelin 2015.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
 $EndSCHEMATC
