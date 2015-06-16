@@ -593,15 +593,10 @@ extern void PORTIO_enter_DefaultMode_from_RESET(void) {
 
 	/* Pin PA2 is configured to Push-pull */
 	GPIO->P[0].MODEL = (GPIO->P[0].MODEL & ~_GPIO_P_MODEL_MODE2_MASK) | GPIO_P_MODEL_MODE2_PUSHPULL;
+	GPIO->P[0].DOUT |= (1 << 2);
 
 	/* Pin PA8 is configured to Input enabled */
 	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE8_MASK) | GPIO_P_MODEH_MODE8_INPUT;
-
-	/* Pin PA9 is configured to Input enabled */
-	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE9_MASK) | GPIO_P_MODEH_MODE9_INPUT;
-
-	/* Pin PA10 is configured to Input enabled */
-	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE10_MASK) | GPIO_P_MODEH_MODE10_INPUT;
 	// [Port A Configuration]$
 
 

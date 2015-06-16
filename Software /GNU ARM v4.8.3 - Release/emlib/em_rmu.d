@@ -1,4 +1,5 @@
-src/main.o: ../src/main.c \
+emlib/em_rmu.o: ../emlib/em_rmu.c \
+ /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rmu.h \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg332f1024.h \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/CMSIS/Include/core_cm3.h \
@@ -45,9 +46,11 @@ src/main.o: ../src/main.c \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg_dmactrl.h \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg_af_ports.h \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg_af_pins.h \
- /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_chip.h \
- /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ25010_lib.h
+ /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_emu.h \
+ /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h \
+ /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h
+
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rmu.h:
 
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h:
 
@@ -141,8 +144,8 @@ src/main.o: ../src/main.c \
 
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg_af_pins.h:
 
-/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_chip.h:
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_emu.h:
 
-/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h:
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h:
 
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ25010_lib.h:
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h:

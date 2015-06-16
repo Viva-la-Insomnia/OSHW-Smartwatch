@@ -23,12 +23,17 @@
 
 #include "em_device.h"
 #include "em_chip.h"
+#include "BQ25010.h"
 
 int main(void)
 {
   /* Initialise the chip - included for backwards compatibility.
    * Do not add code before this point*/
   CHIP_Init();
+
+  /* Initialise the subsystems */
+  BQ25010_init();
+
 
   /* Infinite loop */
   while (1) {
