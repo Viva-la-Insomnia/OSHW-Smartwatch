@@ -102,7 +102,7 @@ Discarded input sections
  .text.ETM_enter_DefaultMode_from_RESET
                 0x00000000        0x4 ./src/InitDevice.o
  .text.PORTIO_enter_DefaultMode_from_RESET
-                0x00000000      0x228 ./src/InitDevice.o
+                0x00000000      0x238 ./src/InitDevice.o
  .text.enter_DefaultMode_from_RESET
                 0x00000000      0x230 ./src/InitDevice.o
  .rodata        0x00000000       0x40 ./src/InitDevice.o
@@ -112,7 +112,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x118 ./src/InitDevice.o
  .debug_ranges  0x00000000      0x1f0 ./src/InitDevice.o
- .debug_line    0x00000000      0x647 ./src/InitDevice.o
+ .debug_line    0x00000000      0x648 ./src/InitDevice.o
  .debug_str     0x00000000     0x1237 ./src/InitDevice.o
  .comment       0x00000000       0x71 ./src/InitDevice.o
  .ARM.attributes

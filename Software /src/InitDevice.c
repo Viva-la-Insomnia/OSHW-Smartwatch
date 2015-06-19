@@ -422,8 +422,8 @@ extern void I2C0_enter_DefaultMode_from_RESET(void) {
 
 	init.enable                    = 1;
 	init.master                    = 1;
-	init.freq                      = I2C_FREQ_STANDARD_MAX;
-	init.clhr                      = i2cClockHLRStandard;
+	init.freq                      = I2C_FREQ_FAST_MAX;
+	init.clhr                      = i2cClockHLRAsymetric;
 	I2C_Init(I2C0, &init);
 	// [I2C0 initialization]$
 
@@ -593,10 +593,17 @@ extern void PORTIO_enter_DefaultMode_from_RESET(void) {
 
 	/* Pin PA2 is configured to Push-pull */
 	GPIO->P[0].MODEL = (GPIO->P[0].MODEL & ~_GPIO_P_MODEL_MODE2_MASK) | GPIO_P_MODEL_MODE2_PUSHPULL;
-	GPIO->P[0].DOUT |= (1 << 2);
 
 	/* Pin PA8 is configured to Input enabled */
 	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE8_MASK) | GPIO_P_MODEH_MODE8_INPUT;
+
+	/* Pin PA9 is configured to Input enabled with pull-up */
+	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE9_MASK) | GPIO_P_MODEH_MODE9_INPUTPULL;
+	GPIO->P[0].DOUT |= (1 << 9);
+
+	/* Pin PA10 is configured to Input enabled with pull-up */
+	GPIO->P[0].MODEH = (GPIO->P[0].MODEH & ~_GPIO_P_MODEH_MODE10_MASK) | GPIO_P_MODEH_MODE10_INPUTPULL;
+	GPIO->P[0].DOUT |= (1 << 10);
 	// [Port A Configuration]$
 
 
@@ -620,9 +627,11 @@ extern void PORTIO_enter_DefaultMode_from_RESET(void) {
 
 	/* Pin PC6 is configured to Open-drain with pull-up and filter */
 	GPIO->P[2].MODEL = (GPIO->P[2].MODEL & ~_GPIO_P_MODEL_MODE6_MASK) | GPIO_P_MODEL_MODE6_WIREDANDPULLUPFILTER;
+	GPIO->P[2].DOUT |= (1 << 6);
 
 	/* Pin PC7 is configured to Open-drain with pull-up and filter */
 	GPIO->P[2].MODEL = (GPIO->P[2].MODEL & ~_GPIO_P_MODEL_MODE7_MASK) | GPIO_P_MODEL_MODE7_WIREDANDPULLUPFILTER;
+	GPIO->P[2].DOUT |= (1 << 7);
 	// [Port C Configuration]$
 
 
@@ -657,8 +666,9 @@ extern void PORTIO_enter_DefaultMode_from_RESET(void) {
 	GPIO->P[3].MODEL = (GPIO->P[3].MODEL & ~_GPIO_P_MODEL_MODE7_MASK) | GPIO_P_MODEL_MODE7_PUSHPULL;
 	GPIO->P[3].DOUT |= (1 << 7);
 
-	/* Pin PD8 is configured to Input enabled */
-	GPIO->P[3].MODEH = (GPIO->P[3].MODEH & ~_GPIO_P_MODEH_MODE8_MASK) | GPIO_P_MODEH_MODE8_INPUT;
+	/* Pin PD8 is configured to Input enabled with pull-up */
+	GPIO->P[3].MODEH = (GPIO->P[3].MODEH & ~_GPIO_P_MODEH_MODE8_MASK) | GPIO_P_MODEH_MODE8_INPUTPULL;
+	GPIO->P[3].DOUT |= (1 << 8);
 	// [Port D Configuration]$
 
 

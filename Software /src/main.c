@@ -24,6 +24,7 @@
 #include "em_device.h"
 #include "em_chip.h"
 #include "BQ25010.h"
+#include "BQ27421.h"
 
 int main(void)
 {
@@ -31,9 +32,13 @@ int main(void)
    * Do not add code before this point*/
   CHIP_Init();
 
+
+  /* Start in default mode */
+  enter_DefaultMode_from_RESET();
+
   /* Initialise the subsystems */
   BQ25010_init();
-
+  while( !(BQ27421_Init()) );
 
   /* Infinite loop */
   while (1) {

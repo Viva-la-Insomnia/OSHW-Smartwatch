@@ -13,6 +13,8 @@
     <property object="HFXO" propertyId="hfxo.crystalcharacteristics.shuntcapacitancepf" value="7"/>
     <property object="HFXO" propertyId="hfxo.result.rnegesrmaxratio" value="1.560"/>
     <property object="I2C0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C0" propertyId="i2c.settings.i2cmaxbusfrequency" value="400 kHz (fast mode)"/>
+    <property object="I2C0" propertyId="i2c.settings.lowhighratio" value="6:3 clock ratio"/>
     <property object="I2C1" propertyId="ABPeripheral.included" value="true"/>
     <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
     <property object="LFXO" propertyId="lfxo.circuitcharacteristics.calculatedclpf" value="10.00"/>
@@ -23,14 +25,30 @@
     <property object="LFXO" propertyId="lfxo.result.rnegesrmaxratio" value="6.759"/>
     <property object="PA0" propertyId="ports.settings.pinmode" value="Input"/>
     <property object="PA1" propertyId="ports.settings.pinmode" value="Push-pull"/>
-    <property object="PA10" propertyId="ports.settings.pinmode" value="Input"/>
+    <property object="PA10" propertyId="ports.settings.dout" value="1"/>
+    <property object="PA10" propertyId="ports.settings.filter" value="Enabled"/>
+    <property object="PA10" propertyId="ports.settings.pinmode" value="Input pull"/>
+    <property object="PA10" propertyId="ports.settings.pulldirection" value="Pullup"/>
+    <property object="PA10" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PA2" propertyId="ports.settings.pinmode" value="Push-pull"/>
     <property object="PA8" propertyId="ports.settings.pinmode" value="Input"/>
-    <property object="PA9" propertyId="ports.settings.pinmode" value="Input"/>
+    <property object="PA9" propertyId="ports.settings.dout" value="1"/>
+    <property object="PA9" propertyId="ports.settings.filter" value="Enabled"/>
+    <property object="PA9" propertyId="ports.settings.pinmode" value="Input pull"/>
+    <property object="PA9" propertyId="ports.settings.pulldirection" value="Pullup"/>
+    <property object="PA9" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PC4" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
     <property object="PC5" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC6" propertyId="ports.settings.dout" value="1"/>
+    <property object="PC6" propertyId="ports.settings.filter" value="Enabled"/>
     <property object="PC6" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC6" propertyId="ports.settings.pulldirection" value="Pullup"/>
+    <property object="PC6" propertyId="ports.settings.pullup" value="Enabled"/>
+    <property object="PC7" propertyId="ports.settings.dout" value="1"/>
+    <property object="PC7" propertyId="ports.settings.filter" value="Enabled"/>
     <property object="PC7" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC7" propertyId="ports.settings.pulldirection" value="Pullup"/>
+    <property object="PC7" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PD0" propertyId="ports.settings.pinmode" value="Push-pull"/>
     <property object="PD1" propertyId="ports.settings.pinmode" value="Input"/>
     <property object="PD2" propertyId="ports.settings.pinmode" value="Push-pull"/>
@@ -47,7 +65,11 @@
     <property object="PD7" propertyId="ports.settings.pinmode" value="Push-pull"/>
     <property object="PD7" propertyId="ports.settings.pulldirection" value="Pullup"/>
     <property object="PD7" propertyId="ports.settings.pullup" value="Enabled"/>
-    <property object="PD8" propertyId="ports.settings.pinmode" value="Input"/>
+    <property object="PD8" propertyId="ports.settings.dout" value="1"/>
+    <property object="PD8" propertyId="ports.settings.filter" value="Enabled"/>
+    <property object="PD8" propertyId="ports.settings.pinmode" value="Input pull"/>
+    <property object="PD8" propertyId="ports.settings.pulldirection" value="Pullup"/>
+    <property object="PD8" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PE10" propertyId="ports.settings.pinmode" value="Push-pull"/>
     <property object="PE11" propertyId="ports.settings.pinmode" value="Input"/>
     <property object="PE12" propertyId="ports.settings.pinmode" value="Push-pull"/>
