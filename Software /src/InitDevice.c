@@ -439,8 +439,8 @@ extern void I2C1_enter_DefaultMode_from_RESET(void) {
 
 	init.enable                    = 1;
 	init.master                    = 1;
-	init.freq                      = I2C_FREQ_STANDARD_MAX;
-	init.clhr                      = i2cClockHLRStandard;
+	init.freq                      = I2C_FREQ_FAST_MAX;
+	init.clhr                      = i2cClockHLRAsymetric;
 	I2C_Init(I2C1, &init);
 	// [I2C1 initialization]$
 
@@ -621,9 +621,11 @@ extern void PORTIO_enter_DefaultMode_from_RESET(void) {
 
 	/* Pin PC4 is configured to Open-drain with pull-up and filter */
 	GPIO->P[2].MODEL = (GPIO->P[2].MODEL & ~_GPIO_P_MODEL_MODE4_MASK) | GPIO_P_MODEL_MODE4_WIREDANDPULLUPFILTER;
+	GPIO->P[2].DOUT |= (1 << 4);
 
 	/* Pin PC5 is configured to Open-drain with pull-up and filter */
 	GPIO->P[2].MODEL = (GPIO->P[2].MODEL & ~_GPIO_P_MODEL_MODE5_MASK) | GPIO_P_MODEL_MODE5_WIREDANDPULLUPFILTER;
+	GPIO->P[2].DOUT |= (1 << 5);
 
 	/* Pin PC6 is configured to Open-drain with pull-up and filter */
 	GPIO->P[2].MODEL = (GPIO->P[2].MODEL & ~_GPIO_P_MODEL_MODE6_MASK) | GPIO_P_MODEL_MODE6_WIREDANDPULLUPFILTER;

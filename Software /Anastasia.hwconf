@@ -16,6 +16,8 @@
     <property object="I2C0" propertyId="i2c.settings.i2cmaxbusfrequency" value="400 kHz (fast mode)"/>
     <property object="I2C0" propertyId="i2c.settings.lowhighratio" value="6:3 clock ratio"/>
     <property object="I2C1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="I2C1" propertyId="i2c.settings.i2cmaxbusfrequency" value="400 kHz (fast mode)"/>
+    <property object="I2C1" propertyId="i2c.settings.lowhighratio" value="6:3 clock ratio"/>
     <property object="LFXO" propertyId="ABPeripheral.included" value="true"/>
     <property object="LFXO" propertyId="lfxo.circuitcharacteristics.calculatedclpf" value="10.00"/>
     <property object="LFXO" propertyId="lfxo.circuitcharacteristics.loadcapacitorcl1pf" value="15"/>
@@ -37,8 +39,12 @@
     <property object="PA9" propertyId="ports.settings.pinmode" value="Input pull"/>
     <property object="PA9" propertyId="ports.settings.pulldirection" value="Pullup"/>
     <property object="PA9" propertyId="ports.settings.pullup" value="Enabled"/>
+    <property object="PC4" propertyId="ports.settings.dout" value="1"/>
     <property object="PC4" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC4" propertyId="ports.settings.pullup" value="Enabled"/>
+    <property object="PC5" propertyId="ports.settings.dout" value="1"/>
     <property object="PC5" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC5" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PC6" propertyId="ports.settings.dout" value="1"/>
     <property object="PC6" propertyId="ports.settings.filter" value="Enabled"/>
     <property object="PC6" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>

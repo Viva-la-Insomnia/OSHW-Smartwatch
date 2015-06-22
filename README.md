@@ -18,4 +18,5 @@ Features of the project:
 
 Current state of project: Waiting for prototype parts to arrive. Software is in development
 
-We would like to thank Jared Sanson - http://jared.geek.nz/2014/jul/oshw-oled-watch - for inspiration and design ideas
+We would like to thank Jared Sanson - http://jared.geek.nz/2014/jul/oshw-oled-watch - for inspiration and design ideas.
+Kris Winer - https://github.com/kriswiner/MPU-9250/ - for his MPU-9250 code
