@@ -1,15 +1,43 @@
 Archive member included because of file (symbol)
 
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+                              ./src/MPU9250.o (pow)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (__ieee754_pow)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o) (__ieee754_sqrt)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o) (fabs)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (finite)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (__fpclassifyd)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (__fdlib_version)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (matherr)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o) (nan)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (rint)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o) (scalbn)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o) (copysign)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
                               ./src/MPU9250.o (__aeabi_dsub)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
                               ./src/MPU9250.o (__aeabi_dmul)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_cmpdf2.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (__aeabi_dcmpeq)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
                               ./src/MPU9250.o (__aeabi_d2f)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
                               ./src/MPU9250.o (__aeabi_ui2f)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
                               ./src/MPU9250.o (__aeabi_fdiv)
+/home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+                              /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o) (__errno)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
                               /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o (exit)
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
@@ -38,6 +66,14 @@ Discarded input sections
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
  .ARM.extab     0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+ .text          0x00000000        0x0 ./src/AFE4490.o
+ .data          0x00000000        0x0 ./src/AFE4490.o
+ .bss           0x00000000        0x0 ./src/AFE4490.o
+ .debug_line    0x00000000        0x0 ./src/AFE4490.o
+ .debug_str     0x00000000        0x0 ./src/AFE4490.o
+ .comment       0x00000000       0x71 ./src/AFE4490.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/AFE4490.o
  .text          0x00000000        0x0 ./src/BQ25010.o
  .data          0x00000000        0x0 ./src/BQ25010.o
  .bss           0x00000000        0x0 ./src/BQ25010.o
@@ -108,10 +144,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/MPU9250.o
  .data          0x00000000        0x0 ./src/MPU9250.o
  .bss           0x00000000        0x0 ./src/MPU9250.o
- .bss.Gscale    0x00000000        0x1 ./src/MPU9250.o
- .bss.Ascale    0x00000000        0x1 ./src/MPU9250.o
- .data.Mscale   0x00000000        0x1 ./src/MPU9250.o
- .data.Mmode    0x00000000        0x1 ./src/MPU9250.o
  .text.MPU9250_WhoAmI
                 0x00000000       0x4c ./src/MPU9250.o
  .text.MPU9250_GetMres
@@ -128,27 +160,6 @@ Discarded input sections
                 0x00000000       0xe0 ./src/MPU9250.o
  .text.MPU9250_ReadTempData
                 0x00000000       0x54 ./src/MPU9250.o
- .text.MPU9250_InitAK8963
-                0x00000000      0x21c ./src/MPU9250.o
- .rodata        0x00000000       0x10 ./src/MPU9250.o
- .text.MPU9250_Init
-                0x00000000      0x3c0 ./src/MPU9250.o
- .text.MPU9250_Calibrate
-                0x00000000      0xb04 ./src/MPU9250.o
- .text.MPU9250_SelfTest
-                0x00000000      0xa90 ./src/MPU9250.o
- .debug_info    0x00000000      0x8a8 ./src/MPU9250.o
- .debug_abbrev  0x00000000      0x1de ./src/MPU9250.o
- .debug_loc     0x00000000      0x282 ./src/MPU9250.o
- .debug_aranges
-                0x00000000       0x78 ./src/MPU9250.o
- .debug_ranges  0x00000000       0x68 ./src/MPU9250.o
- .debug_line    0x00000000      0x838 ./src/MPU9250.o
- .debug_str     0x00000000      0x5d5 ./src/MPU9250.o
- .comment       0x00000000       0x71 ./src/MPU9250.o
- .ARM.attributes
-                0x00000000       0x33 ./src/MPU9250.o
- .debug_frame   0x00000000      0x180 ./src/MPU9250.o
  COMMON         0x00000000        0xc ./src/MPU9250.o
  .text          0x00000000        0x0 ./src/main.o
  .data          0x00000000        0x0 ./src/main.o
@@ -357,39 +368,63 @@ Discarded input sections
                 0x00000000       0x2c ./CMSIS/efm32gg/system_efm32gg.o
  .text.SystemLFXOClockSet
                 0x00000000       0x2c ./CMSIS/efm32gg/system_efm32gg.o
- .text          0x00000000      0x370 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
- .ARM.attributes
-                0x00000000       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
- .text          0x00000000      0x424 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
- .ARM.attributes
-                0x00000000       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
- .text          0x00000000       0xa0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_cmpdf2.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
- .ARM.attributes
-                0x00000000       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
- .text          0x00000000      0x21c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
- .ARM.attributes
-                0x00000000       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
- .text          0x00000000      0x2a0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
- .ARM.attributes
-                0x00000000       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+ .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
  .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
  .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
  .text          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
  .data          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
  .bss           0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
@@ -419,6 +454,7 @@ Linker script and memory map
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+LOAD ./src/AFE4490.o
 LOAD ./src/BQ25010.o
 LOAD ./src/BQ27421.o
 LOAD ./src/InitDevice.o
@@ -435,6 +471,7 @@ LOAD ./emlib/em_system.o
 LOAD ./emlib/em_usart.o
 LOAD ./CMSIS/efm32gg/startup_gcc_efm32gg.o
 LOAD ./CMSIS/efm32gg/system_efm32gg.o
+LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a
 START GROUP
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a
@@ -452,7 +489,7 @@ END GROUP
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
 LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
 
-.text           0x00000000     0x235c
+.text           0x00000000     0x5f34
  *(.isr_vector)
  .isr_vector    0x00000000      0x100 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
                 0x00000000                __isr_vector
@@ -503,192 +540,293 @@ LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/
  .text.PORTIO_enter_DefaultMode_from_RESET
                 0x000005ac      0x33c ./src/InitDevice.o
                 0x000005ac                PORTIO_enter_DefaultMode_from_RESET
+ .text.MPU9250_InitAK8963
+                0x000008e8      0x21c ./src/MPU9250.o
+                0x000008e8                MPU9250_InitAK8963
+ .text.MPU9250_Init
+                0x00000b04      0x3c0 ./src/MPU9250.o
+                0x00000b04                MPU9250_Init
+ .text.MPU9250_Calibrate
+                0x00000ec4      0xb04 ./src/MPU9250.o
+                0x00000ec4                MPU9250_Calibrate
+ .text.MPU9250_SelfTest
+                0x000019c8      0xa90 ./src/MPU9250.o
+                0x000019c8                MPU9250_SelfTest
  .text.CHIP_Init
-                0x000008e8       0x40 ./src/main.o
- .text.main     0x00000928       0x18 ./src/main.o
-                0x00000928                main
+                0x00002458       0x40 ./src/main.o
+ .text.main     0x00002498       0x40 ./src/main.o
+                0x00002498                main
  .text.BITBAND_Peripheral
-                0x00000940       0x2c ./emlib/em_burtc.o
+                0x000024d8       0x2c ./emlib/em_burtc.o
  .text.BURTC_IntClear
-                0x0000096c       0x1c ./emlib/em_burtc.o
+                0x00002504       0x1c ./emlib/em_burtc.o
  .text.BURTC_Enable
-                0x00000988       0x50 ./emlib/em_burtc.o
+                0x00002520       0x50 ./emlib/em_burtc.o
  .text.BURTC_FreezeEnable
-                0x000009d8       0x20 ./emlib/em_burtc.o
+                0x00002570       0x20 ./emlib/em_burtc.o
  .text.BURTC_DivToLog2
-                0x000009f8       0x3c ./emlib/em_burtc.o
+                0x00002590       0x3c ./emlib/em_burtc.o
  .text.BURTC_Sync
-                0x00000a34       0x40 ./emlib/em_burtc.o
+                0x000025cc       0x40 ./emlib/em_burtc.o
  .text.BURTC_Init
-                0x00000a74       0xe8 ./emlib/em_burtc.o
-                0x00000a74                BURTC_Init
+                0x0000260c       0xe8 ./emlib/em_burtc.o
+                0x0000260c                BURTC_Init
  .text.BURTC_CompareSet
-                0x00000b5c       0x20 ./emlib/em_burtc.o
-                0x00000b5c                BURTC_CompareSet
+                0x000026f4       0x20 ./emlib/em_burtc.o
+                0x000026f4                BURTC_CompareSet
  .text.BITBAND_Peripheral
-                0x00000b7c       0x2c ./emlib/em_cmu.o
+                0x00002714       0x2c ./emlib/em_cmu.o
  .text.CMU_MaxFreqHfle
-                0x00000ba8       0x8c ./emlib/em_cmu.o
+                0x00002740       0x8c ./emlib/em_cmu.o
  .text.CMU_FlashWaitStateControl
-                0x00000c34       0xb8 ./emlib/em_cmu.o
+                0x000027cc       0xb8 ./emlib/em_cmu.o
  .text.CMU_FlashWaitStateMax
-                0x00000cec       0x1c ./emlib/em_cmu.o
+                0x00002884       0x1c ./emlib/em_cmu.o
  .text.CMU_USBCClkGet
-                0x00000d08       0x4c ./emlib/em_cmu.o
+                0x000028a0       0x4c ./emlib/em_cmu.o
  .text.CMU_AUXClkGet
-                0x00000d54       0x8c ./emlib/em_cmu.o
+                0x000028ec       0x8c ./emlib/em_cmu.o
  .text.CMU_DBGClkGet
-                0x00000de0       0x58 ./emlib/em_cmu.o
+                0x00002978       0x58 ./emlib/em_cmu.o
  .text.CMU_LFClkGet
-                0x00000e38       0xb4 ./emlib/em_cmu.o
+                0x000029d0       0xb4 ./emlib/em_cmu.o
  .text.CMU_Sync
-                0x00000eec       0x34 ./emlib/em_cmu.o
+                0x00002a84       0x34 ./emlib/em_cmu.o
  .text.CMU_ClockEnable
-                0x00000f20       0xe0 ./emlib/em_cmu.o
-                0x00000f20                CMU_ClockEnable
+                0x00002ab8       0xe0 ./emlib/em_cmu.o
+                0x00002ab8                CMU_ClockEnable
  .text.CMU_ClockFreqGet
-                0x00001000      0x190 ./emlib/em_cmu.o
-                0x00001000                CMU_ClockFreqGet
+                0x00002b98      0x190 ./emlib/em_cmu.o
+                0x00002b98                CMU_ClockFreqGet
  .text.CMU_ClockSelectGet
-                0x00001190      0x164 ./emlib/em_cmu.o
-                0x00001190                CMU_ClockSelectGet
+                0x00002d28      0x164 ./emlib/em_cmu.o
+                0x00002d28                CMU_ClockSelectGet
  .text.CMU_ClockSelectSet
-                0x000012f4      0x29c ./emlib/em_cmu.o
-                0x000012f4                CMU_ClockSelectSet
+                0x00002e8c      0x29c ./emlib/em_cmu.o
+                0x00002e8c                CMU_ClockSelectSet
  .text.CMU_OscillatorEnable
-                0x00001590       0xc0 ./emlib/em_cmu.o
-                0x00001590                CMU_OscillatorEnable
+                0x00003128       0xc0 ./emlib/em_cmu.o
+                0x00003128                CMU_OscillatorEnable
  .text.EMU_UpdateOscConfig
-                0x00001650       0x1c ./emlib/em_emu.o
-                0x00001650                EMU_UpdateOscConfig
+                0x000031e8       0x1c ./emlib/em_emu.o
+                0x000031e8                EMU_UpdateOscConfig
  .text.BITBAND_Peripheral
-                0x0000166c       0x2c ./emlib/em_i2c.o
+                0x00003204       0x2c ./emlib/em_i2c.o
  .text.I2C_BusFreqSet
-                0x00001698       0x88 ./emlib/em_i2c.o
-                0x00001698                I2C_BusFreqSet
+                0x00003230       0x88 ./emlib/em_i2c.o
+                0x00003230                I2C_BusFreqSet
  .text.I2C_Init
-                0x00001720       0x78 ./emlib/em_i2c.o
-                0x00001720                I2C_Init
+                0x000032b8       0x78 ./emlib/em_i2c.o
+                0x000032b8                I2C_Init
  .text.I2C_Transfer
-                0x00001798      0x44c ./emlib/em_i2c.o
-                0x00001798                I2C_Transfer
+                0x00003330      0x44c ./emlib/em_i2c.o
+                0x00003330                I2C_Transfer
  .text.I2C_TransferInit
-                0x00001be4       0xe4 ./emlib/em_i2c.o
-                0x00001be4                I2C_TransferInit
+                0x0000377c       0xe4 ./emlib/em_i2c.o
+                0x0000377c                I2C_TransferInit
  .text.BITBAND_Peripheral
-                0x00001cc8       0x2c ./emlib/em_rmu.o
+                0x00003860       0x2c ./emlib/em_rmu.o
  .text.RMU_ResetControl
-                0x00001cf4       0x28 ./emlib/em_rmu.o
-                0x00001cf4                RMU_ResetControl
+                0x0000388c       0x28 ./emlib/em_rmu.o
+                0x0000388c                RMU_ResetControl
  .text.RTC_Init
-                0x00001d1c       0x50 ./emlib/em_rtc.o
-                0x00001d1c                RTC_Init
+                0x000038b4       0x50 ./emlib/em_rtc.o
+                0x000038b4                RTC_Init
  .text.SYSTEM_ChipRevisionGet
-                0x00001d6c       0x74 ./emlib/em_system.o
-                0x00001d6c                SYSTEM_ChipRevisionGet
+                0x00003904       0x74 ./emlib/em_system.o
+                0x00003904                SYSTEM_ChipRevisionGet
  .text.USART_BaudrateSyncSet
-                0x00001de0       0x6c ./emlib/em_usart.o
-                0x00001de0                USART_BaudrateSyncSet
+                0x00003978       0x6c ./emlib/em_usart.o
+                0x00003978                USART_BaudrateSyncSet
  .text.USART_InitSync
-                0x00001e4c       0xc8 ./emlib/em_usart.o
-                0x00001e4c                USART_InitSync
+                0x000039e4       0xc8 ./emlib/em_usart.o
+                0x000039e4                USART_InitSync
  .text.USART_InitPrsTrigger
-                0x00001f14       0x60 ./emlib/em_usart.o
-                0x00001f14                USART_InitPrsTrigger
+                0x00003aac       0x60 ./emlib/em_usart.o
+                0x00003aac                USART_InitPrsTrigger
  .text.USART_Reset
-                0x00001f74       0x98 ./emlib/em_usart.o
-                0x00001f74                USART_Reset
- .text          0x0000200c       0x98 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
-                0x0000200c                Reset_Handler
-                0x00002040                Default_Handler
-                0x00002042                NMI_Handler
-                0x00002044                HardFault_Handler
-                0x00002046                MemManage_Handler
-                0x00002048                BusFault_Handler
-                0x0000204a                UsageFault_Handler
-                0x0000204c                SVC_Handler
-                0x0000204e                DebugMon_Handler
-                0x00002050                PendSV_Handler
-                0x00002052                SysTick_Handler
-                0x00002054                DMA_IRQHandler
-                0x00002056                GPIO_EVEN_IRQHandler
-                0x00002058                TIMER0_IRQHandler
-                0x0000205a                USART0_RX_IRQHandler
-                0x0000205c                USART0_TX_IRQHandler
-                0x0000205e                USB_IRQHandler
-                0x00002060                ACMP0_IRQHandler
-                0x00002062                ADC0_IRQHandler
-                0x00002064                DAC0_IRQHandler
-                0x00002066                I2C0_IRQHandler
-                0x00002068                I2C1_IRQHandler
-                0x0000206a                GPIO_ODD_IRQHandler
-                0x0000206c                TIMER1_IRQHandler
-                0x0000206e                TIMER2_IRQHandler
-                0x00002070                TIMER3_IRQHandler
-                0x00002072                USART1_RX_IRQHandler
-                0x00002074                USART1_TX_IRQHandler
-                0x00002076                LESENSE_IRQHandler
-                0x00002078                USART2_RX_IRQHandler
-                0x0000207a                USART2_TX_IRQHandler
-                0x0000207c                UART0_RX_IRQHandler
-                0x0000207e                UART0_TX_IRQHandler
-                0x00002080                UART1_RX_IRQHandler
-                0x00002082                UART1_TX_IRQHandler
-                0x00002084                LEUART0_IRQHandler
-                0x00002086                LEUART1_IRQHandler
-                0x00002088                LETIMER0_IRQHandler
-                0x0000208a                PCNT0_IRQHandler
-                0x0000208c                PCNT1_IRQHandler
-                0x0000208e                PCNT2_IRQHandler
-                0x00002090                RTC_IRQHandler
-                0x00002092                BURTC_IRQHandler
-                0x00002094                CMU_IRQHandler
-                0x00002096                VCMP_IRQHandler
-                0x00002098                LCD_IRQHandler
-                0x0000209a                MSC_IRQHandler
-                0x0000209c                AES_IRQHandler
-                0x0000209e                EBI_IRQHandler
-                0x000020a0                EMU_IRQHandler
+                0x00003b0c       0x98 ./emlib/em_usart.o
+                0x00003b0c                USART_Reset
+ .text          0x00003ba4       0x98 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+                0x00003ba4                Reset_Handler
+                0x00003bd8                Default_Handler
+                0x00003bda                NMI_Handler
+                0x00003bdc                HardFault_Handler
+                0x00003bde                MemManage_Handler
+                0x00003be0                BusFault_Handler
+                0x00003be2                UsageFault_Handler
+                0x00003be4                SVC_Handler
+                0x00003be6                DebugMon_Handler
+                0x00003be8                PendSV_Handler
+                0x00003bea                SysTick_Handler
+                0x00003bec                DMA_IRQHandler
+                0x00003bee                GPIO_EVEN_IRQHandler
+                0x00003bf0                TIMER0_IRQHandler
+                0x00003bf2                USART0_RX_IRQHandler
+                0x00003bf4                USART0_TX_IRQHandler
+                0x00003bf6                USB_IRQHandler
+                0x00003bf8                ACMP0_IRQHandler
+                0x00003bfa                ADC0_IRQHandler
+                0x00003bfc                DAC0_IRQHandler
+                0x00003bfe                I2C0_IRQHandler
+                0x00003c00                I2C1_IRQHandler
+                0x00003c02                GPIO_ODD_IRQHandler
+                0x00003c04                TIMER1_IRQHandler
+                0x00003c06                TIMER2_IRQHandler
+                0x00003c08                TIMER3_IRQHandler
+                0x00003c0a                USART1_RX_IRQHandler
+                0x00003c0c                USART1_TX_IRQHandler
+                0x00003c0e                LESENSE_IRQHandler
+                0x00003c10                USART2_RX_IRQHandler
+                0x00003c12                USART2_TX_IRQHandler
+                0x00003c14                UART0_RX_IRQHandler
+                0x00003c16                UART0_TX_IRQHandler
+                0x00003c18                UART1_RX_IRQHandler
+                0x00003c1a                UART1_TX_IRQHandler
+                0x00003c1c                LEUART0_IRQHandler
+                0x00003c1e                LEUART1_IRQHandler
+                0x00003c20                LETIMER0_IRQHandler
+                0x00003c22                PCNT0_IRQHandler
+                0x00003c24                PCNT1_IRQHandler
+                0x00003c26                PCNT2_IRQHandler
+                0x00003c28                RTC_IRQHandler
+                0x00003c2a                BURTC_IRQHandler
+                0x00003c2c                CMU_IRQHandler
+                0x00003c2e                VCMP_IRQHandler
+                0x00003c30                LCD_IRQHandler
+                0x00003c32                MSC_IRQHandler
+                0x00003c34                AES_IRQHandler
+                0x00003c36                EBI_IRQHandler
+                0x00003c38                EMU_IRQHandler
  .text.GetProdRev
-                0x000020a4       0x1c ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003c3c       0x1c ./CMSIS/efm32gg/system_efm32gg.o
  .text.SystemCoreClockGet
-                0x000020c0       0x48 ./CMSIS/efm32gg/system_efm32gg.o
-                0x000020c0                SystemCoreClockGet
+                0x00003c58       0x48 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003c58                SystemCoreClockGet
  .text.SystemHFClockGet
-                0x00002108       0xf0 ./CMSIS/efm32gg/system_efm32gg.o
-                0x00002108                SystemHFClockGet
+                0x00003ca0       0xf0 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003ca0                SystemHFClockGet
  .text.SystemHFXOClockGet
-                0x000021f8       0x18 ./CMSIS/efm32gg/system_efm32gg.o
-                0x000021f8                SystemHFXOClockGet
+                0x00003d90       0x18 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003d90                SystemHFXOClockGet
  .text.SystemInit
-                0x00002210        0xc ./CMSIS/efm32gg/system_efm32gg.o
-                0x00002210                SystemInit
+                0x00003da8        0xc ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003da8                SystemInit
  .text.SystemLFRCOClockGet
-                0x0000221c       0x14 ./CMSIS/efm32gg/system_efm32gg.o
-                0x0000221c                SystemLFRCOClockGet
+                0x00003db4       0x14 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003db4                SystemLFRCOClockGet
  .text.SystemULFRCOClockGet
-                0x00002230       0x14 ./CMSIS/efm32gg/system_efm32gg.o
-                0x00002230                SystemULFRCOClockGet
+                0x00003dc8       0x14 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003dc8                SystemULFRCOClockGet
  .text.SystemLFXOClockGet
-                0x00002244       0x18 ./CMSIS/efm32gg/system_efm32gg.o
-                0x00002244                SystemLFXOClockGet
- .text.exit     0x0000225c       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
-                0x0000225c                exit
+                0x00003ddc       0x18 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00003ddc                SystemLFXOClockGet
+ .text.pow      0x00003df4      0x2f8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+                0x00003df4                pow
+ *fill*         0x000040ec        0x4 
+ .text.__ieee754_pow
+                0x000040f0      0xab8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+                0x000040f0                __ieee754_pow
+ .text.__ieee754_sqrt
+                0x00004ba8      0x180 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+                0x00004ba8                __ieee754_sqrt
+ .text.fabs     0x00004d28        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+                0x00004d28                fabs
+ .text.finite   0x00004d30        0xc /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+                0x00004d30                finite
+ .text.__fpclassifyd
+                0x00004d3c       0x50 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+                0x00004d3c                __fpclassifyd
+ .text.matherr  0x00004d8c        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+                0x00004d8c                matherr
+ .text.nan      0x00004d90        0xc /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+                0x00004d90                nan
+ .text.rint     0x00004d9c      0x118 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+                0x00004d9c                rint
+ *fill*         0x00004eb4        0x4 
+ .text.scalbn   0x00004eb8      0x100 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+                0x00004eb8                scalbn
+ .text.copysign
+                0x00004fb8       0x14 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+                0x00004fb8                copysign
+ .text          0x00004fcc      0x370 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
+                0x00004fcc                __aeabi_drsub
+                0x00004fd4                __aeabi_dsub
+                0x00004fd4                __subdf3
+                0x00004fd8                __adddf3
+                0x00004fd8                __aeabi_dadd
+                0x00005250                __aeabi_ui2d
+                0x00005250                __floatunsidf
+                0x00005270                __floatsidf
+                0x00005270                __aeabi_i2d
+                0x00005294                __extendsfdf2
+                0x00005294                __aeabi_f2d
+                0x000052d0                __aeabi_ul2d
+                0x000052d0                __floatundidf
+                0x000052e0                __floatdidf
+                0x000052e0                __aeabi_l2d
+ .text          0x0000533c      0x424 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
+                0x0000533c                __aeabi_dmul
+                0x0000533c                __muldf3
+                0x00005590                __aeabi_ddiv
+                0x00005590                __divdf3
+ .text          0x00005760      0x110 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_cmpdf2.o)
+                0x00005760                __gtdf2
+                0x00005760                __gedf2
+                0x00005768                __ltdf2
+                0x00005768                __ledf2
+                0x00005770                __cmpdf2
+                0x00005770                __eqdf2
+                0x00005770                __nedf2
+                0x000057ec                __aeabi_cdrcmple
+                0x000057fc                __aeabi_cdcmple
+                0x000057fc                __aeabi_cdcmpeq
+                0x0000580c                __aeabi_dcmpeq
+                0x00005820                __aeabi_dcmplt
+                0x00005834                __aeabi_dcmple
+                0x00005848                __aeabi_dcmpge
+                0x0000585c                __aeabi_dcmpgt
+ .text          0x00005870       0xa0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+                0x00005870                __aeabi_d2f
+                0x00005870                __truncdfsf2
+ .text          0x00005910      0x21c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
+                0x00005910                __aeabi_frsub
+                0x00005918                __subsf3
+                0x00005918                __aeabi_fsub
+                0x0000591c                __aeabi_fadd
+                0x0000591c                __addsf3
+                0x00005a7c                __aeabi_ui2f
+                0x00005a7c                __floatunsisf
+                0x00005a84                __aeabi_i2f
+                0x00005a84                __floatsisf
+                0x00005aa0                __floatundisf
+                0x00005aa0                __aeabi_ul2f
+                0x00005ab0                __floatdisf
+                0x00005ab0                __aeabi_l2f
+ .text          0x00005b2c      0x2a0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+                0x00005b2c                __mulsf3
+                0x00005b2c                __aeabi_fmul
+                0x00005c94                __divsf3
+                0x00005c94                __aeabi_fdiv
+ .text.__errno  0x00005dcc        0xc /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+                0x00005dcc                __errno
+ .text.exit     0x00005dd8       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
+                0x00005dd8                exit
  .text.__libc_init_array
-                0x00002284       0x4c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
-                0x00002284                __libc_init_array
- .text.memset   0x000022d0       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
-                0x000022d0                memset
- .text._exit    0x000022e0        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
-                0x000022e0                _exit
+                0x00005e00       0x4c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
+                0x00005e00                __libc_init_array
+ .text.memset   0x00005e4c       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
+                0x00005e4c                memset
+ .text._exit    0x00005e5c        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                0x00005e5c                _exit
  *(.init)
- .init          0x000022e4        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x000022e4                _init
- .init          0x000022e8        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .init          0x00005e60        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x00005e60                _init
+ .init          0x00005e64        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
  *(.fini)
- .fini          0x000022f0        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
-                0x000022f0                _fini
- .fini          0x000022f4        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+ .fini          0x00005e6c        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crti.o
+                0x00005e6c                _fini
+ .fini          0x00005e70        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -700,110 +838,137 @@ LOAD /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x000022fc       0x10 ./src/BQ27421.o
- .rodata        0x0000230c       0x40 ./src/InitDevice.o
+ .rodata        0x00005e78       0x10 ./src/BQ27421.o
+ .rodata        0x00005e88       0x40 ./src/InitDevice.o
+ .rodata        0x00005ec8       0x10 ./src/MPU9250.o
  .rodata.i2cNSum
-                0x0000234c        0x4 ./emlib/em_i2c.o
+                0x00005ed8        0x4 ./emlib/em_i2c.o
+ .rodata.str1.4
+                0x00005edc        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+ .rodata.dp_h   0x00005ee0       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .rodata.dp_l   0x00005ef0       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .rodata.bp     0x00005f00       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .rodata.str1.4
+                0x00005f10        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ *fill*         0x00005f14        0x4 
+ .rodata.TWO52  0x00005f18       0x10 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
  .rodata.str1.1
-                0x00002350        0x2 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
- *fill*         0x00002352        0x2 
+                0x00005f28        0x2 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+ *fill*         0x00005f2a        0x2 
  .rodata._global_impure_ptr
-                0x00002354        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
-                0x00002354                _global_impure_ptr
+                0x00005f2c        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+                0x00005f2c                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x00002358        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
- .eh_frame      0x00002358        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .eh_frame      0x00005f30        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .eh_frame      0x00005f30        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
 
-.glue_7         0x0000235c        0x0
+.glue_7         0x00005f34        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x0000235c        0x0
+.glue_7t        0x00005f34        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x0000235c        0x0
+.vfp11_veneer   0x00005f34        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0000235c        0x0
+.v4_bx          0x00005f34        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0000235c        0x0
+.iplt           0x00005f34        0x0
  .iplt          0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000235c                __exidx_start = .
+                0x00005f34                __exidx_start = .
 
-.ARM.exidx      0x0000235c        0x8
+.ARM.exidx      0x00005f34        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x0000235c        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
-                0x00002364                __exidx_end = .
-                0x00002364                __etext = .
+ .ARM.exidx     0x00005f34        0x8 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/crt0.o
+                0x00005f3c                __exidx_end = .
+                0x00005f3c                __etext = .
 
-.rel.dyn        0x00002364        0x0
+.rel.dyn        0x00005f3c        0x0
  .rel.iplt      0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.data           0x20000000       0x70 load address 0x00002364
+.data           0x20000000       0x7c load address 0x00005f3c
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
+ .data.Mscale   0x20000000        0x1 ./src/MPU9250.o
+                0x20000000                Mscale
+ .data.Mmode    0x20000001        0x1 ./src/MPU9250.o
+                0x20000001                Mmode
+ *fill*         0x20000002        0x2 
  .data.SystemHFXOClock
-                0x20000000        0x4 ./CMSIS/efm32gg/system_efm32gg.o
- .data.SystemLFXOClock
                 0x20000004        0x4 ./CMSIS/efm32gg/system_efm32gg.o
+ .data.SystemLFXOClock
+                0x20000008        0x4 ./CMSIS/efm32gg/system_efm32gg.o
+ .data.__fdlib_version
+                0x2000000c        0x1 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+                0x2000000c                __fdlib_version
+ *fill*         0x2000000d        0x3 
  .data.impure_data
-                0x20000008       0x60 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
-                0x20000068                . = ALIGN (0x4)
+                0x20000010       0x60 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20000070        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+                0x20000070                _impure_ptr
+                0x20000074                . = ALIGN (0x4)
  *(.ram)
-                0x20000068                . = ALIGN (0x4)
-                0x20000068                PROVIDE (__preinit_array_start, .)
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000068                PROVIDE (__preinit_array_end, .)
-                0x20000068                . = ALIGN (0x4)
-                0x20000068                PROVIDE (__init_array_start, .)
+                0x20000074                PROVIDE (__preinit_array_end, .)
+                0x20000074                . = ALIGN (0x4)
+                0x20000074                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x20000068        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
-                0x2000006c                PROVIDE (__init_array_end, .)
-                0x2000006c                . = ALIGN (0x4)
-                0x2000006c                PROVIDE (__fini_array_start, .)
+ .init_array    0x20000074        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x20000078                PROVIDE (__init_array_end, .)
+                0x20000078                . = ALIGN (0x4)
+                0x20000078                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
- .fini_array    0x2000006c        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
-                0x20000070                PROVIDE (__fini_array_end, .)
-                0x20000070                . = ALIGN (0x4)
-                0x20000070                __data_end__ = .
+ .fini_array    0x20000078        0x4 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+                0x2000007c                PROVIDE (__fini_array_end, .)
+                0x2000007c                . = ALIGN (0x4)
+                0x2000007c                __data_end__ = .
 
-.jcr            0x20000070        0x0 load address 0x000023d4
- .jcr           0x20000070        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+.jcr            0x2000007c        0x0 load address 0x00005fb8
+ .jcr           0x2000007c        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.igot.plt       0x20000070        0x0 load address 0x000023d4
+.igot.plt       0x2000007c        0x0 load address 0x00005fb8
  .igot.plt      0x00000000        0x0 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
 
-.bss            0x20000070       0x3c load address 0x000023d4
-                0x20000070                __bss_start__ = .
+.bss            0x2000007c       0x40 load address 0x00005fb8
+                0x2000007c                __bss_start__ = .
  *(.bss*)
- .bss           0x20000070       0x1c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .bss           0x2000007c       0x1c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtbegin.o
+ .bss.Gscale    0x20000098        0x1 ./src/MPU9250.o
+                0x20000098                Gscale
+ .bss.Ascale    0x20000099        0x1 ./src/MPU9250.o
+                0x20000099                Ascale
+ *fill*         0x2000009a        0x2 
  .bss.cmuStatus
-                0x2000008c        0x4 ./emlib/em_emu.o
+                0x2000009c        0x4 ./emlib/em_emu.o
  .bss.i2cTransfer
-                0x20000090       0x18 ./emlib/em_i2c.o
+                0x200000a0       0x18 ./emlib/em_i2c.o
  *(COMMON)
- COMMON         0x200000a8        0x4 ./CMSIS/efm32gg/system_efm32gg.o
-                0x200000a8                SystemCoreClock
-                0x200000ac                __bss_end__ = .
+ COMMON         0x200000b8        0x4 ./CMSIS/efm32gg/system_efm32gg.o
+                0x200000b8                SystemCoreClock
+                0x200000bc                __bss_end__ = .
 
-.heap           0x200000b0      0xc00
-                0x200000b0                __end__ = .
-                0x200000b0                end = __end__
-                0x200000b0                _end = __end__
+.heap           0x200000c0      0xc00
+                0x200000c0                __end__ = .
+                0x200000c0                end = __end__
+                0x200000c0                _end = __end__
  *(.heap*)
- .heap          0x200000b0      0xc00 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
-                0x200000b0                __HeapBase
-                0x20000cb0                __HeapLimit = .
+ .heap          0x200000c0      0xc00 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+                0x200000c0                __HeapBase
+                0x20000cc0                __HeapLimit = .
 
-.stack_dummy    0x200000b0      0x400
+.stack_dummy    0x200000c0      0x400
  *(.stack)
- .stack         0x200000b0      0x400 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+ .stack         0x200000c0      0x400 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
                 0x20020000                __StackTop = (ORIGIN (RAM) + 0x20000)
                 0x2001fc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20020000                PROVIDE (__stack, __StackTop)
@@ -826,47 +991,88 @@ OUTPUT(Anastasia.axf elf32-littlearm)
  .ARM.attributes
                 0x000000cb       0x33 ./src/InitDevice.o
  .ARM.attributes
-                0x000000fe       0x33 ./src/main.o
+                0x000000fe       0x33 ./src/MPU9250.o
  .ARM.attributes
-                0x00000131       0x33 ./emlib/em_burtc.o
+                0x00000131       0x33 ./src/main.o
  .ARM.attributes
-                0x00000164       0x33 ./emlib/em_cmu.o
+                0x00000164       0x33 ./emlib/em_burtc.o
  .ARM.attributes
-                0x00000197       0x33 ./emlib/em_emu.o
+                0x00000197       0x33 ./emlib/em_cmu.o
  .ARM.attributes
-                0x000001ca       0x33 ./emlib/em_i2c.o
+                0x000001ca       0x33 ./emlib/em_emu.o
  .ARM.attributes
-                0x000001fd       0x33 ./emlib/em_rmu.o
+                0x000001fd       0x33 ./emlib/em_i2c.o
  .ARM.attributes
-                0x00000230       0x33 ./emlib/em_rtc.o
+                0x00000230       0x33 ./emlib/em_rmu.o
  .ARM.attributes
-                0x00000263       0x33 ./emlib/em_system.o
+                0x00000263       0x33 ./emlib/em_rtc.o
  .ARM.attributes
-                0x00000296       0x33 ./emlib/em_usart.o
+                0x00000296       0x33 ./emlib/em_system.o
  .ARM.attributes
-                0x000002c9       0x1b ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+                0x000002c9       0x33 ./emlib/em_usart.o
  .ARM.attributes
-                0x000002e4       0x33 ./CMSIS/efm32gg/system_efm32gg.o
+                0x000002fc       0x1b ./CMSIS/efm32gg/startup_gcc_efm32gg.o
  .ARM.attributes
-                0x00000317       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
+                0x00000317       0x33 ./CMSIS/efm32gg/system_efm32gg.o
  .ARM.attributes
-                0x00000344       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+                0x0000034a       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
  .ARM.attributes
-                0x00000371       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
+                0x00000377       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
  .ARM.attributes
-                0x0000039e       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
+                0x000003a4       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
  .ARM.attributes
-                0x000003cb       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+                0x000003d1       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
  .ARM.attributes
-                0x000003f8       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+                0x000003fe       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
  .ARM.attributes
-                0x00000425       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
+                0x0000042b       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x00000458       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x00000485       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x000004b2       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x000004df       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+ .ARM.attributes
+                0x0000050c       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+ .ARM.attributes
+                0x00000539       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+ .ARM.attributes
+                0x00000566       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000583       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000005a0       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x000005bd       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x000005da       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000005f7       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000614       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000641       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000066e       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000069b       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x000006c8       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006f5       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000722       0x2d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x0000074f       0x1d /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m/crtn.o
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ./src/BQ25010.o
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 ./src/BQ27421.o
  .comment       0x00000000       0x71 ./src/InitDevice.o
+ .comment       0x00000000       0x71 ./src/MPU9250.o
  .comment       0x00000000       0x71 ./src/main.o
  .comment       0x00000000       0x71 ./emlib/em_burtc.o
  .comment       0x00000000       0x71 ./emlib/em_cmu.o
@@ -878,54 +1084,57 @@ OUTPUT(Anastasia.axf elf32-littlearm)
  .comment       0x00000000       0x71 ./emlib/em_usart.o
  .comment       0x00000000       0x71 ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_info     0x00000000     0x6370
+.debug_info     0x00000000     0x6c92
  .debug_info    0x00000000      0x316 ./src/BQ25010.o
  .debug_info    0x00000316      0x3d3 ./src/BQ27421.o
  .debug_info    0x000006e9     0x112c ./src/InitDevice.o
- .debug_info    0x00001815      0x139 ./src/main.o
- .debug_info    0x0000194e      0x66f ./emlib/em_burtc.o
- .debug_info    0x00001fbd     0x10bb ./emlib/em_cmu.o
- .debug_info    0x00003078      0xd9f ./emlib/em_emu.o
- .debug_info    0x00003e17      0x7bd ./emlib/em_i2c.o
- .debug_info    0x000045d4      0x3cd ./emlib/em_rmu.o
- .debug_info    0x000049a1      0x32d ./emlib/em_rtc.o
- .debug_info    0x00004cce      0x245 ./emlib/em_system.o
- .debug_info    0x00004f13      0xe4a ./emlib/em_usart.o
- .debug_info    0x00005d5d       0xa9 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
- .debug_info    0x00005e06      0x56a ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_info    0x00001815      0x8a8 ./src/MPU9250.o
+ .debug_info    0x000020bd      0x1b3 ./src/main.o
+ .debug_info    0x00002270      0x66f ./emlib/em_burtc.o
+ .debug_info    0x000028df     0x10bb ./emlib/em_cmu.o
+ .debug_info    0x0000399a      0xd9f ./emlib/em_emu.o
+ .debug_info    0x00004739      0x7bd ./emlib/em_i2c.o
+ .debug_info    0x00004ef6      0x3cd ./emlib/em_rmu.o
+ .debug_info    0x000052c3      0x32d ./emlib/em_rtc.o
+ .debug_info    0x000055f0      0x245 ./emlib/em_system.o
+ .debug_info    0x00005835      0xe4a ./emlib/em_usart.o
+ .debug_info    0x0000667f       0xa9 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+ .debug_info    0x00006728      0x56a ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_abbrev   0x00000000     0x155f
+.debug_abbrev   0x00000000     0x1751
  .debug_abbrev  0x00000000       0xe5 ./src/BQ25010.o
  .debug_abbrev  0x000000e5      0x137 ./src/BQ27421.o
  .debug_abbrev  0x0000021c      0x197 ./src/InitDevice.o
- .debug_abbrev  0x000003b3       0xbd ./src/main.o
- .debug_abbrev  0x00000470      0x226 ./emlib/em_burtc.o
- .debug_abbrev  0x00000696      0x2e4 ./emlib/em_cmu.o
- .debug_abbrev  0x0000097a      0x263 ./emlib/em_emu.o
- .debug_abbrev  0x00000bdd      0x234 ./emlib/em_i2c.o
- .debug_abbrev  0x00000e11      0x154 ./emlib/em_rmu.o
- .debug_abbrev  0x00000f65      0x198 ./emlib/em_rtc.o
- .debug_abbrev  0x000010fd       0xef ./emlib/em_system.o
- .debug_abbrev  0x000011ec      0x1ba ./emlib/em_usart.o
- .debug_abbrev  0x000013a6       0x14 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
- .debug_abbrev  0x000013ba      0x1a5 ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_abbrev  0x000003b3      0x1de ./src/MPU9250.o
+ .debug_abbrev  0x00000591       0xd1 ./src/main.o
+ .debug_abbrev  0x00000662      0x226 ./emlib/em_burtc.o
+ .debug_abbrev  0x00000888      0x2e4 ./emlib/em_cmu.o
+ .debug_abbrev  0x00000b6c      0x263 ./emlib/em_emu.o
+ .debug_abbrev  0x00000dcf      0x234 ./emlib/em_i2c.o
+ .debug_abbrev  0x00001003      0x154 ./emlib/em_rmu.o
+ .debug_abbrev  0x00001157      0x198 ./emlib/em_rtc.o
+ .debug_abbrev  0x000012ef       0xef ./emlib/em_system.o
+ .debug_abbrev  0x000013de      0x1ba ./emlib/em_usart.o
+ .debug_abbrev  0x00001598       0x14 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+ .debug_abbrev  0x000015ac      0x1a5 ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_loc      0x00000000     0x2100
+.debug_loc      0x00000000     0x2390
  .debug_loc     0x00000000      0x114 ./src/BQ25010.o
  .debug_loc     0x00000114       0xe0 ./src/BQ27421.o
  .debug_loc     0x000001f4      0x5c8 ./src/InitDevice.o
- .debug_loc     0x000007bc       0x64 ./src/main.o
- .debug_loc     0x00000820      0x2cc ./emlib/em_burtc.o
- .debug_loc     0x00000aec      0x708 ./emlib/em_cmu.o
- .debug_loc     0x000011f4      0x3b4 ./emlib/em_emu.o
- .debug_loc     0x000015a8      0x1c0 ./emlib/em_i2c.o
- .debug_loc     0x00001768      0x138 ./emlib/em_rmu.o
- .debug_loc     0x000018a0      0x1a8 ./emlib/em_rtc.o
- .debug_loc     0x00001a48       0x70 ./emlib/em_system.o
- .debug_loc     0x00001ab8      0x460 ./emlib/em_usart.o
- .debug_loc     0x00001f18      0x1e8 ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_loc     0x000007bc      0x282 ./src/MPU9250.o
+ .debug_loc     0x00000a3e       0x72 ./src/main.o
+ .debug_loc     0x00000ab0      0x2cc ./emlib/em_burtc.o
+ .debug_loc     0x00000d7c      0x708 ./emlib/em_cmu.o
+ .debug_loc     0x00001484      0x3b4 ./emlib/em_emu.o
+ .debug_loc     0x00001838      0x1c0 ./emlib/em_i2c.o
+ .debug_loc     0x000019f8      0x138 ./emlib/em_rmu.o
+ .debug_loc     0x00001b30      0x1a8 ./emlib/em_rtc.o
+ .debug_loc     0x00001cd8       0x70 ./emlib/em_system.o
+ .debug_loc     0x00001d48      0x460 ./emlib/em_usart.o
+ .debug_loc     0x000021a8      0x1e8 ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_aranges  0x00000000      0x668
+.debug_aranges  0x00000000      0x6e0
  .debug_aranges
                 0x00000000       0x48 ./src/BQ25010.o
  .debug_aranges
@@ -933,102 +1142,121 @@ OUTPUT(Anastasia.axf elf32-littlearm)
  .debug_aranges
                 0x00000080      0x118 ./src/InitDevice.o
  .debug_aranges
-                0x00000198       0x28 ./src/main.o
+                0x00000198       0x78 ./src/MPU9250.o
  .debug_aranges
-                0x000001c0       0x80 ./emlib/em_burtc.o
+                0x00000210       0x28 ./src/main.o
  .debug_aranges
-                0x00000240      0x120 ./emlib/em_cmu.o
+                0x00000238       0x80 ./emlib/em_burtc.o
  .debug_aranges
-                0x00000360       0xa8 ./emlib/em_emu.o
+                0x000002b8      0x120 ./emlib/em_cmu.o
  .debug_aranges
-                0x00000408       0x58 ./emlib/em_i2c.o
+                0x000003d8       0xa8 ./emlib/em_emu.o
  .debug_aranges
-                0x00000460       0x48 ./emlib/em_rmu.o
+                0x00000480       0x58 ./emlib/em_i2c.o
  .debug_aranges
-                0x000004a8       0x58 ./emlib/em_rtc.o
+                0x000004d8       0x48 ./emlib/em_rmu.o
  .debug_aranges
-                0x00000500       0x28 ./emlib/em_system.o
+                0x00000520       0x58 ./emlib/em_rtc.o
  .debug_aranges
-                0x00000528       0xb8 ./emlib/em_usart.o
+                0x00000578       0x28 ./emlib/em_system.o
  .debug_aranges
-                0x000005e0       0x20 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+                0x000005a0       0xb8 ./emlib/em_usart.o
  .debug_aranges
-                0x00000600       0x68 ./CMSIS/efm32gg/system_efm32gg.o
+                0x00000658       0x20 ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+ .debug_aranges
+                0x00000678       0x68 ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_ranges   0x00000000      0x578
+.debug_ranges   0x00000000      0x5e0
  .debug_ranges  0x00000000       0x38 ./src/BQ25010.o
  .debug_ranges  0x00000038       0x28 ./src/BQ27421.o
  .debug_ranges  0x00000060      0x108 ./src/InitDevice.o
- .debug_ranges  0x00000168       0x18 ./src/main.o
- .debug_ranges  0x00000180       0x70 ./emlib/em_burtc.o
- .debug_ranges  0x000001f0      0x110 ./emlib/em_cmu.o
- .debug_ranges  0x00000300       0x98 ./emlib/em_emu.o
- .debug_ranges  0x00000398       0x48 ./emlib/em_i2c.o
- .debug_ranges  0x000003e0       0x38 ./emlib/em_rmu.o
- .debug_ranges  0x00000418       0x48 ./emlib/em_rtc.o
- .debug_ranges  0x00000460       0x18 ./emlib/em_system.o
- .debug_ranges  0x00000478       0xa8 ./emlib/em_usart.o
- .debug_ranges  0x00000520       0x58 ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_ranges  0x00000168       0x68 ./src/MPU9250.o
+ .debug_ranges  0x000001d0       0x18 ./src/main.o
+ .debug_ranges  0x000001e8       0x70 ./emlib/em_burtc.o
+ .debug_ranges  0x00000258      0x110 ./emlib/em_cmu.o
+ .debug_ranges  0x00000368       0x98 ./emlib/em_emu.o
+ .debug_ranges  0x00000400       0x48 ./emlib/em_i2c.o
+ .debug_ranges  0x00000448       0x38 ./emlib/em_rmu.o
+ .debug_ranges  0x00000480       0x48 ./emlib/em_rtc.o
+ .debug_ranges  0x000004c8       0x18 ./emlib/em_system.o
+ .debug_ranges  0x000004e0       0xa8 ./emlib/em_usart.o
+ .debug_ranges  0x00000588       0x58 ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_line     0x00000000     0x2f3c
+.debug_line     0x00000000     0x3778
  .debug_line    0x00000000      0x205 ./src/BQ25010.o
  .debug_line    0x00000205      0x264 ./src/BQ27421.o
  .debug_line    0x00000469      0x53b ./src/InitDevice.o
- .debug_line    0x000009a4      0x1b0 ./src/main.o
- .debug_line    0x00000b54      0x3b9 ./emlib/em_burtc.o
- .debug_line    0x00000f0d      0x807 ./emlib/em_cmu.o
- .debug_line    0x00001714      0x4af ./emlib/em_emu.o
- .debug_line    0x00001bc3      0x3cd ./emlib/em_i2c.o
- .debug_line    0x00001f90      0x2a9 ./emlib/em_rmu.o
- .debug_line    0x00002239      0x2bf ./emlib/em_rtc.o
- .debug_line    0x000024f8      0x23f ./emlib/em_system.o
- .debug_line    0x00002737      0x4dc ./emlib/em_usart.o
- .debug_line    0x00002c13       0x9f ./CMSIS/efm32gg/startup_gcc_efm32gg.o
- .debug_line    0x00002cb2      0x28a ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_line    0x000009a4      0x838 ./src/MPU9250.o
+ .debug_line    0x000011dc      0x1b4 ./src/main.o
+ .debug_line    0x00001390      0x3b9 ./emlib/em_burtc.o
+ .debug_line    0x00001749      0x807 ./emlib/em_cmu.o
+ .debug_line    0x00001f50      0x4af ./emlib/em_emu.o
+ .debug_line    0x000023ff      0x3cd ./emlib/em_i2c.o
+ .debug_line    0x000027cc      0x2a9 ./emlib/em_rmu.o
+ .debug_line    0x00002a75      0x2bf ./emlib/em_rtc.o
+ .debug_line    0x00002d34      0x23f ./emlib/em_system.o
+ .debug_line    0x00002f73      0x4dc ./emlib/em_usart.o
+ .debug_line    0x0000344f       0x9f ./CMSIS/efm32gg/startup_gcc_efm32gg.o
+ .debug_line    0x000034ee      0x28a ./CMSIS/efm32gg/system_efm32gg.o
 
-.debug_str      0x00000000     0x280a
+.debug_str      0x00000000     0x2a83
  .debug_str     0x00000000      0x2d1 ./src/BQ25010.o
                                 0x317 (size before relaxing)
  .debug_str     0x000002d1      0x1ee ./src/BQ27421.o
                                 0x3db (size before relaxing)
  .debug_str     0x000004bf      0xdbc ./src/InitDevice.o
                                0x1172 (size before relaxing)
- .debug_str     0x0000127b       0x54 ./src/main.o
-                                0x232 (size before relaxing)
- .debug_str     0x000012cf      0x18f ./emlib/em_burtc.o
+ .debug_str     0x0000127b      0x24e ./src/MPU9250.o
+                                0x5d5 (size before relaxing)
+ .debug_str     0x000014c9       0x84 ./src/main.o
+                                0x28a (size before relaxing)
+ .debug_str     0x0000154d      0x18a ./emlib/em_burtc.o
                                 0x4df (size before relaxing)
- .debug_str     0x0000145e      0x5d1 ./emlib/em_cmu.o
+ .debug_str     0x000016d7      0x5d1 ./emlib/em_cmu.o
                                 0xc42 (size before relaxing)
- .debug_str     0x00001a2f      0x498 ./emlib/em_emu.o
+ .debug_str     0x00001ca8      0x498 ./emlib/em_emu.o
                                 0x841 (size before relaxing)
- .debug_str     0x00001ec7      0x1cd ./emlib/em_i2c.o
+ .debug_str     0x00002140      0x1cd ./emlib/em_i2c.o
                                 0x76a (size before relaxing)
- .debug_str     0x00002094       0xd0 ./emlib/em_rmu.o
+ .debug_str     0x0000230d       0xd0 ./emlib/em_rmu.o
                                 0x38d (size before relaxing)
- .debug_str     0x00002164       0x20 ./emlib/em_rtc.o
+ .debug_str     0x000023dd       0x20 ./emlib/em_rtc.o
                                 0x2d3 (size before relaxing)
- .debug_str     0x00002184       0x7b ./emlib/em_system.o
+ .debug_str     0x000023fd       0x7b ./emlib/em_system.o
                                 0x2c6 (size before relaxing)
- .debug_str     0x000021ff      0x50a ./emlib/em_usart.o
+ .debug_str     0x00002478      0x50a ./emlib/em_usart.o
                                 0xd86 (size before relaxing)
- .debug_str     0x00002709      0x101 ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_str     0x00002982      0x101 ./CMSIS/efm32gg/system_efm32gg.o
                                 0x48f (size before relaxing)
 
-.debug_frame    0x00000000     0x1348
+.debug_frame    0x00000000     0x16c4
  .debug_frame   0x00000000       0xa4 ./src/BQ25010.o
  .debug_frame   0x000000a4       0x90 ./src/BQ27421.o
  .debug_frame   0x00000134      0x354 ./src/InitDevice.o
- .debug_frame   0x00000488       0x4c ./src/main.o
- .debug_frame   0x000004d4      0x194 ./emlib/em_burtc.o
- .debug_frame   0x00000668      0x3cc ./emlib/em_cmu.o
- .debug_frame   0x00000a34      0x210 ./emlib/em_emu.o
- .debug_frame   0x00000c44      0x104 ./emlib/em_i2c.o
- .debug_frame   0x00000d48       0xb8 ./emlib/em_rmu.o
- .debug_frame   0x00000e00       0xf0 ./emlib/em_rtc.o
- .debug_frame   0x00000ef0       0x48 ./emlib/em_system.o
- .debug_frame   0x00000f38      0x25c ./emlib/em_usart.o
- .debug_frame   0x00001194      0x120 ./CMSIS/efm32gg/system_efm32gg.o
- .debug_frame   0x000012b4       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
- .debug_frame   0x000012dc       0x2c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
- .debug_frame   0x00001308       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
- .debug_frame   0x00001328       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)
+ .debug_frame   0x00000488      0x180 ./src/MPU9250.o
+ .debug_frame   0x00000608       0x50 ./src/main.o
+ .debug_frame   0x00000658      0x194 ./emlib/em_burtc.o
+ .debug_frame   0x000007ec      0x3cc ./emlib/em_cmu.o
+ .debug_frame   0x00000bb8      0x210 ./emlib/em_emu.o
+ .debug_frame   0x00000dc8      0x104 ./emlib/em_i2c.o
+ .debug_frame   0x00000ecc       0xb8 ./emlib/em_rmu.o
+ .debug_frame   0x00000f84       0xf0 ./emlib/em_rtc.o
+ .debug_frame   0x00001074       0x48 ./emlib/em_system.o
+ .debug_frame   0x000010bc      0x25c ./emlib/em_usart.o
+ .debug_frame   0x00001318      0x120 ./CMSIS/efm32gg/system_efm32gg.o
+ .debug_frame   0x00001438       0x38 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-w_pow.o)
+ .debug_frame   0x00001470       0x38 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_pow.o)
+ .debug_frame   0x000014a8       0x34 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x000014dc       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x000014fc       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_finite.o)
+ .debug_frame   0x0000151c       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001544       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00001564       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_nan.o)
+ .debug_frame   0x00001584       0x34 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_rint.o)
+ .debug_frame   0x000015b8       0x30 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_scalbn.o)
+ .debug_frame   0x000015e8       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libm.a(lib_a-s_copysign.o)
+ .debug_frame   0x00001610       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-errno.o)
+ .debug_frame   0x00001630       0x28 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-exit.o)
+ .debug_frame   0x00001658       0x2c /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-init.o)
+ .debug_frame   0x00001684       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libc_s.a(lib_a-memset.o)
+ .debug_frame   0x000016a4       0x20 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/toolchains/gnu_arm/4.8_2013q4/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a(_exit.o)

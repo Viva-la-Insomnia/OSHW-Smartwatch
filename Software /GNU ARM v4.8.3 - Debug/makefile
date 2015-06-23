@@ -31,7 +31,7 @@ all: Anastasia.axf
 Anastasia.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM C Linker'
-	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb -T "Anastasia.ld" -Xlinker --gc-sections -Xlinker -Map="Anastasia.map" --specs=nano.specs -o Anastasia.axf "./src/BQ25010.o" "./src/BQ27421.o" "./src/InitDevice.o" "./src/MPU9250.o" "./src/main.o" "./emlib/em_burtc.o" "./emlib/em_cmu.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_i2c.o" "./emlib/em_rmu.o" "./emlib/em_rtc.o" "./emlib/em_system.o" "./emlib/em_usart.o" "./CMSIS/efm32gg/startup_gcc_efm32gg.o" "./CMSIS/efm32gg/system_efm32gg.o" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
+	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb -T "Anastasia.ld" -Xlinker --gc-sections -Xlinker -Map="Anastasia.map" --specs=nano.specs -o Anastasia.axf "./src/AFE4490.o" "./src/BQ25010.o" "./src/BQ27421.o" "./src/InitDevice.o" "./src/MPU9250.o" "./src/main.o" "./emlib/em_burtc.o" "./emlib/em_cmu.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_i2c.o" "./emlib/em_rmu.o" "./emlib/em_rtc.o" "./emlib/em_system.o" "./emlib/em_usart.o" "./CMSIS/efm32gg/startup_gcc_efm32gg.o" "./CMSIS/efm32gg/system_efm32gg.o" "-lm" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

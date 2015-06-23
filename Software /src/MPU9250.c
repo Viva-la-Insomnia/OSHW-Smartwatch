@@ -24,7 +24,7 @@
 /*DEFINES*/
 #define MPU9250_ADDR 	0xD0
 #define AK8963_ADDR_MPU 0x0C //MPU9250 and EFM32 emlib specs have different formats for I2C address
-#define AK8963_ADDR_EFM 0x18
+#define AK8963_ADDR_EFM 0x18 //Would need the MPU address if you set AK8963 as MPU-9250 slave
 
 // See also MPU-9250 Register Map and Descriptions, Revision 4.0, RM-MPU-9250A-00, Rev. 1.4, 9/9/2013 for registers not listed in
 // above document; the MPU9250 and MPU9150 are virtually identical but the latter has a different register map

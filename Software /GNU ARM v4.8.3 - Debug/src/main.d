@@ -49,6 +49,7 @@ src/main.o: ../src/main.c \
  /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ25010.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ27421.h \
+ /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/MPU9250.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/InitDevice.h
 
 /home/sumanguru/Downloads/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h:
@@ -150,5 +151,7 @@ src/main.o: ../src/main.c \
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ25010.h:
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/BQ27421.h:
+
+/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/MPU9250.h:
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Software\ /inc/InitDevice.h:
