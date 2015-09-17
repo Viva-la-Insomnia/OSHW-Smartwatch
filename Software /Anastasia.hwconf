@@ -40,10 +40,14 @@
     <property object="PA9" propertyId="ports.settings.pulldirection" value="Pullup"/>
     <property object="PA9" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PC4" propertyId="ports.settings.dout" value="1"/>
+    <property object="PC4" propertyId="ports.settings.filter" value="Enabled"/>
     <property object="PC4" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC4" propertyId="ports.settings.pulldirection" value="Pullup"/>
     <property object="PC4" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PC5" propertyId="ports.settings.dout" value="1"/>
+    <property object="PC5" propertyId="ports.settings.filter" value="Enabled"/>
     <property object="PC5" propertyId="ports.settings.pinmode" value="Wired-and pullup filter"/>
+    <property object="PC5" propertyId="ports.settings.pulldirection" value="Pullup"/>
     <property object="PC5" propertyId="ports.settings.pullup" value="Enabled"/>
     <property object="PC6" propertyId="ports.settings.dout" value="1"/>
     <property object="PC6" propertyId="ports.settings.filter" value="Enabled"/>

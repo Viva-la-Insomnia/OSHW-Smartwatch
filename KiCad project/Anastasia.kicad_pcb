@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 0.201505262310+5684~23~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201509141501+6196~30~ubuntu14.04.1-product)
 
   (general
     (links 262)
     (no_connects 8)
-    (area 65.426572 17.44718 114.630571 54.16282)
+    (area 65.426572 11.248001 114.091048 57.83057)
     (thickness 1.6)
     (drawings 40)
     (tracks 982)
@@ -21,7 +21,7 @@
 
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu power hide)
+    (1 In1.Cu power)
     (2 In2.Cu power)
     (31 B.Cu signal)
     (32 B.Adhes user)
@@ -76,15 +76,16 @@
     (pad_size 1.25 1.1)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
+    (pad_to_paste_clearance_ratio -0.1)
     (aux_axis_origin 0 0)
     (visible_elements 7FFCFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000007)
+      (layerselection 0x0100c_00000000)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
-      (viasonmask true)
+      (viasonmask false)
       (mode 1)
       (useauxorigin false)
       (hpglpennumber 1)

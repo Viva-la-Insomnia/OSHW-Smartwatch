@@ -69,11 +69,21 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/AFE4490.o
  .data          0x00000000        0x0 ./src/AFE4490.o
  .bss           0x00000000        0x0 ./src/AFE4490.o
- .debug_line    0x00000000        0x0 ./src/AFE4490.o
- .debug_str     0x00000000        0x0 ./src/AFE4490.o
+ .text.AFE4490_Init
+                0x00000000       0x6c ./src/AFE4490.o
+ .rodata        0x00000000       0x18 ./src/AFE4490.o
+ .debug_info    0x00000000      0x526 ./src/AFE4490.o
+ .debug_abbrev  0x00000000      0x132 ./src/AFE4490.o
+ .debug_loc     0x00000000       0x2c ./src/AFE4490.o
+ .debug_aranges
+                0x00000000       0x20 ./src/AFE4490.o
+ .debug_ranges  0x00000000       0x10 ./src/AFE4490.o
+ .debug_line    0x00000000      0x217 ./src/AFE4490.o
+ .debug_str     0x00000000      0x677 ./src/AFE4490.o
  .comment       0x00000000       0x71 ./src/AFE4490.o
  .ARM.attributes
                 0x00000000       0x33 ./src/AFE4490.o
+ .debug_frame   0x00000000       0x30 ./src/AFE4490.o
  .text          0x00000000        0x0 ./src/BQ25010.o
  .data          0x00000000        0x0 ./src/BQ25010.o
  .bss           0x00000000        0x0 ./src/BQ25010.o
