@@ -3,6 +3,7 @@ This is a repo for EFM32-based smartwatch project.
 -- Tuomas Tinus, Jimi Järvelin
 
 Contribute by contacting us / sending in a pull request
+Read the README in the Simplicity_project/ on Simplicity IDE setup details
 
 Our code and hardware are GNU GPL v2 / CERN OHL v1.2, licenses are in the repo. 
 However, note that external libraries used in this project are distributed under different licenses, e.g. ARM CMSIS is shared under BSD

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:model="http://www.silabs.com/sls/IDE.ecore" name="Anastasia" kitCompatibility="com.silabs.ide.kit.none" partCompatibility="com.silabs.mcu.si32.efm32.efm32gg.efm32gg332f1024" toolchainCompatibility="com.silabs.ide.si32.gcc:4.8.3.20131129" sdkCompatibility="com.silabs.sdk.si32.efm32.sls:2.0.6" propertyScope="project" contentRoot="file:#PATH_TO_PROJECT_DIR/OSHW-Smartwatch/Simplicity_project/">
+  <folder name="emlib" uri="emlib" includeAllFiles="false" includeAllFolders="false">
+    <file name="em_rtc.c"/>
+  </folder>
+  <folder name="src" uri="src" includeAllFiles="false" includeAllFolders="false">
+    <file name="MPU9250.c"/>
+    <file name="BQ25010.c"/>
+    <file name="InitDevice.c"/>
+    <file name="BQ27421.c"/>
+    <file name="main.c"/>
+    <file name="AFE4490.c"/>
+  </folder>
+  <folder name="inc" uri="inc" includeAllFiles="false" includeAllFolders="false">
+    <file name="BQ27421.h"/>
+    <file name="AFE4490.h"/>
+    <file name="MPU9250.h"/>
+    <file name="InitDevice.h"/>
+    <file name="BQ25010.h"/>
+  </folder>
+  <file name="README.md"/>
+  <file name="Anastasia_EFM32GG332F1024.hwconf"/>
+  <file name="Anastasia.slsproj"/>
+  <sourceFolder></sourceFolder>
+  <model:property key="projectCommon.buildArtifactType" value="EXE"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.enable" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false"/>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.kit"/>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.part"/>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.common.drivers">
+    <exclude pattern=".*"/>
+  </module>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.common.CMSIS">
+    <exclude pattern=".*"/>
+  </module>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.common.emlib">
+    <include pattern="emlib/em_system.c"/>
+    <include pattern="emlib/em_emu.c"/>
+    <include pattern="emlib/em_cmu.c"/>
+    <include pattern="emlib/em_device.c"/>
+    <include pattern="emlib/em_chip.c"/>
+    <include pattern="emlib/em_burtc.c"/>
+    <include pattern="emlib/em_rmu.c"/>
+    <include pattern="emlib/em_gpio.c"/>
+    <include pattern="emlib/em_i2c.c"/>
+    <include pattern="emlib/em_usart.c"/>
+  </module>
+  <module builtin="true" id="com.silabs.ide.si32.sdk.efm32.v2.common.bsp">
+    <exclude pattern=".*"/>
+  </module>
+  <configuration name="com.silabs.ide.si32.gcc.debug#com.silabs.ide.si32.gcc:4.8.3.20131129" label="GNU ARM v4.8.3 - Debug" stockConfigCompatibility="com.silabs.ide.toolchain.core.debug">
+    <entrySetting key="//@folders.1/@files.4">
+      <value>
+        <includePath languageCompatibility="c" uri="studio:/project/inc/"/>
+        <includePath languageCompatibility="c" uri="studio:/project/src/"/>
+      </value>
+    </entrySetting>
+    <model:description></model:description>
+    <includePath languageCompatibility="c" uri="studio:/project/inc/"/>
+    <includePath languageCompatibility="c" uri="studio:/project/src/"/>
+    <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.category.ordering.selection" value="./src/AFE4490.o;./src/BQ25010.o;./src/BQ27421.o;./src/InitDevice.o;./src/MPU9250.o;./src/main.o;./emlib/em_burtc.o;./emlib/em_cmu.o;./emlib/em_emu.o;./emlib/em_gpio.o;./emlib/em_i2c.o;./emlib/em_rmu.o;./emlib/em_rtc.o;./emlib/em_system.o;./emlib/em_usart.o;./CMSIS/efm32gg/startup_gcc_efm32gg.o;./CMSIS/efm32gg/system_efm32gg.o"/>
+  </configuration>
+  <configuration name="com.silabs.ide.si32.gcc.release#com.silabs.ide.si32.gcc:4.8.3.20131129" label="GNU ARM v4.8.3 - Release" stockConfigCompatibility="com.silabs.ide.toolchain.core.release">
+    <model:description></model:description>
+  </configuration>
+</project>
