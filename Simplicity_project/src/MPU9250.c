@@ -10,7 +10,7 @@
 /* NOTE Implement different error codes
  * and system log. Replace i2cTransferDone
  * poll with more functional version
- * for the purpose of error detection	   */
+ * for the purpose of error detection	    */
 
 /*INCLUDES*/
 #include "MPU9250.h"

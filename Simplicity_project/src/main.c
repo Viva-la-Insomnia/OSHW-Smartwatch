@@ -23,10 +23,14 @@
 
 #include "em_device.h"
 #include "em_chip.h"
+#include "udelay.h"
+#include "mdelay.h"
 #include "BQ25010.h"
 #include "BQ27421.h"
 #include "MPU9250.h"
+#include "LS013_MD.h"
 #include "InitDevice.h"
+
 
 int main(void)
 {
@@ -34,17 +38,19 @@ int main(void)
    * Do not add code before this point							*/
   CHIP_Init();
 
-
   /* Start in default mode */
   enter_DefaultMode_from_RESET();
 
-  /* Initialise the subsystems
-   * after 100ms delay for them to boot */
+  //Calibrate the delay
+  UDELAY_Calibrate();
 
-  //delay 100ms
+  /* Initialise the subsystems
+   * after 150ms delay for them to boot */
+  MDELAY_Delay(150);
   BQ25010_init();
   BQ27421_Init();
   MPU9250_Init();
+  LS013_Init();
 
   float AK8963_sensitivityadj[3];
   MPU9250_InitAK8963(AK8963_sensitivityadj);

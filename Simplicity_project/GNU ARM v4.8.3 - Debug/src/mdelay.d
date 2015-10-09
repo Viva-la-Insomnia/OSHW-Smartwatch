@@ -1,4 +1,5 @@
-src/main.o: ../src/main.c \
+src/mdelay.o: ../src/mdelay.c \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/efm32gg332f1024.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/CMSIS/Include/core_cm3.h \
@@ -48,12 +49,9 @@ src/main.o: ../src/main.c \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_chip.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/mdelay.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/BQ25010.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/BQ27421.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/MPU9250.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/LS013_MD.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/InitDevice.h
+ /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/mdelay.h
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h:
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h:
 
@@ -154,13 +152,3 @@ src/main.o: ../src/main.c \
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h:
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/mdelay.h:
-
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/BQ25010.h:
-
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/BQ27421.h:
-
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/MPU9250.h:
-
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/LS013_MD.h:
-
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/InitDevice.h:
