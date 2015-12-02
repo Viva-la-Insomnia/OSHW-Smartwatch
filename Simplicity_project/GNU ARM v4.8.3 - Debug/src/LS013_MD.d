@@ -52,7 +52,7 @@ src/LS013_MD.o: ../src/LS013_MD.c \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_assert.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/udelay.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/LS013_MD.h
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_system.h:
@@ -161,6 +161,6 @@ src/LS013_MD.o: ../src/LS013_MD.c \
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h:
 
-/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/udelay.h:
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h:
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/LS013_MD.h:

@@ -19,8 +19,11 @@
 #include "LS013_MD.h"
 
 //DEFINES
-#define DISP_CS_PORT 		0 //SET THE RIGHT PIN AND PORT
-#define DISP_CS_PIN 		0
+#define DISP_CS_PORT 		4 //SET THE RIGHT PIN AND PORT
+#define DISP_CS_PIN 		9
+#define DISP_EN_PORT		4
+#define DISP_EN_PIN			8
+#define DISP_USART 			USART0
 
 #define DISP_WIDTH			96
 #define DISP_HEIGHT 		96
@@ -28,14 +31,28 @@
 #define MODE_DYNAMIC 		0xA0
 #define MODE_STATIC 		0x00
 #define MODE_CLEAR_DISP 	0b00100000
-
-#define DISP_USART 			USART0
+#define MODE_INV_POLARITY	0b01000000
 
 //MISC
 static uint16_t* framebuffer[DISP_WIDTH*DISP_HEIGHT/16];
 static bool  	 linestorender[DISP_WIDTH];
+static bool 	 polarity = 0;
+static bool		 mode_static = 0; //0:Dynamic mode, 1:Static mode
 
 //FUNCTIONS
+
+void LS013_SetBuffer( const uint16_t* img ){
+	memcpy( framebuffer, img, (DISP_WIDTH*DISP_HEIGHT/8) );
+	for ( int i = 0; i<(DISP_WIDTH-1); i++ ){
+		linestorender[i] = 1;
+	}
+}
+
+void LS013_ClearBuffer(void){
+	for ( int i=0; i < sizeof(*framebuffer)/sizeof(uint16_t); i++){
+		*framebuffer[i] = 0x0000;
+	}
+}
 
 void LS013_InvertBuffer(void){
 	for ( int i = 0; i < sizeof(*framebuffer)/sizeof(uint16_t); i++ ){
@@ -94,8 +111,27 @@ void LS013_DrawLines( uint8_t start_column, uint8_t width, uint16_t* data ){
 	//Wait the clear time and clear CS
 	UDELAY_Delay(2);
 	GPIO_PinOutClear( DISP_CS_PORT, DISP_CS_PIN );
+}
 
+void LS013_ClearDisp(void){
+	//Sends the display full clear command
+	GPIO_PinOutSet( DISP_CS_PORT, DISP_CS_PIN );
+	UDELAY_Delay(6);
 
+	uint8_t* mode = 0;
+	if (mode_static){
+		*mode = MODE_STATIC | MODE_CLEAR_DISP;
+	}
+	else {
+		*mode = MODE_DYNAMIC | MODE_CLEAR_DISP;
+	}
+
+	LS013_DispSpiTransmit ( (uint8_t*) mode, 1 );
+	LS013_DispSpiTransmit( 0x0000, 2 ); //Dummy data
+
+	//Wait the clear time and clear CS
+	UDELAY_Delay(2);
+	GPIO_PinOutClear( DISP_CS_PORT, DISP_CS_PIN );
 }
 
 void LS013_Init(void){
@@ -123,26 +159,20 @@ void LS013_Init(void){
 
 	USART_InitPrsTrigger( DISP_USART, &initprs );
 
+	LS013_ClearBuffer();
+
+	LS013_ClearDisp();
 }
 
-void LS013_DrawDots(void){
-	//Fill display with alternating colors aka dots because we only have two
-	#define DOTS		0xAAAA
-	#define ANTIDOTS	0x5555
-	for ( int i = 0; i <DISP_WIDTH*DISP_HEIGHT/16; i+=2 ){
-		*framebuffer[i] = (uint16_t) DOTS;
-		*framebuffer[i+1] = (uint16_t) ANTIDOTS;
-	}
-	LS013_DrawLines(0, 95, *framebuffer);
-
-}
-
-void LS013_RenderBuffer( bool renderwhole ){
+void LS013_Refresh( bool whole_display ){
 
 	LS013_InvertBuffer();
 
-	if (renderwhole == 1){
-		LS013_DrawLines(0, 95, *framebuffer);
+	if (whole_display == 1){
+		LS013_DrawLines(0, (DISP_WIDTH-1), *framebuffer);
+		for ( int i = 0; i<(DISP_WIDTH-1); i++ ){
+			linestorender[i] = 0;
+		}
 	}
 
 	else {
@@ -152,6 +182,7 @@ void LS013_RenderBuffer( bool renderwhole ){
 			if ( linestorender[column] == 1 ){
 				while ( (linestorender[column+width] == 1) | ((column+width) < DISP_WIDTH) ){
 					width++;
+					linestorender[column+width] = 0;
 				}
 				LS013_DrawLines( column, width, *framebuffer );
 				column += width;
@@ -234,12 +265,60 @@ void LS013_SpriteToBuffer( Sprite sprite, uint8_t position_vert, uint8_t positio
 
 }
 
-void LS013_SetBuffer( const uint16_t* img ){
-	memcpy( framebuffer, img, (DISP_WIDTH*DISP_HEIGHT/8) );
+void LS013_InvertPolarity(void){
+	//Set CS and wait the setup time
+		GPIO_PinOutSet( DISP_CS_PORT, DISP_CS_PIN );
+		UDELAY_Delay(6);
+
+		//Send data
+		if (polarity == 0){
+			uint8_t* mode = 0;
+			if (mode_static){
+				*mode = MODE_STATIC | MODE_INV_POLARITY;
+			}
+			else {
+				*mode = MODE_DYNAMIC | MODE_INV_POLARITY;
+			}
+			LS013_DispSpiTransmit ( (uint8_t*) mode, 1 );
+			if (mode_static){
+				LS013_DispSpiTransmit( 0x0000, 2 ); //Dummy data
+			}
+			polarity = 1;
+		}
+		else {
+			if (mode_static){
+				LS013_DispSpiTransmit ( (uint8_t*) MODE_STATIC, 1 );
+				LS013_DispSpiTransmit( 0x0000, 2 ); //Dummy data
+			}
+			else {
+				LS013_DispSpiTransmit ( (uint8_t*) MODE_DYNAMIC, 1 );
+			}
+			polarity = 0;
+		}
+
+		//Wait the clear time and clear CS
+		UDELAY_Delay(2);
+		GPIO_PinOutClear( DISP_CS_PORT, DISP_CS_PIN );
 }
 
-void LS013_ClearBuffer(void){
-	for ( int i=0; i < sizeof(*framebuffer)/sizeof(uint16_t); i++){
-		*framebuffer[i] = 0x0000;
-	}
+void LS013_StaticMode(void){
+	GPIO_PinOutSet( DISP_CS_PORT, DISP_CS_PIN );
+	UDELAY_Delay(6);
+
+	LS013_DispSpiTransmit ( (uint8_t*) MODE_STATIC, 1 );
+	LS013_DispSpiTransmit( 0x0000, 2 ); //Dummy data
+
+	mode_static = 1;
+
+	//Wait the clear time and clear CS
+	UDELAY_Delay(2);
+	GPIO_PinOutClear( DISP_CS_PORT, DISP_CS_PIN );
+}
+
+void LS013_Enable(void){
+	GPIO_PinOutSet( DISP_EN_PORT, DISP_EN_PIN );
+}
+
+void LS013_Disable(void){
+	GPIO_PinOutClear( DISP_EN_PORT, DISP_EN_PIN );
 }

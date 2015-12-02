@@ -48,22 +48,27 @@ typedef struct SpriteType {
 
 	/* Sprite file to draw on the display
 	 * Actual sprite consists of an array of pixels in uint16_t
-	 * Sprite that is not 16n pixels high has heading zeros added in the beginning of every line
+	 * Sprite that is not 16n pixels high has leading zeros added in the beginning of every line
 	 * */
 
 } Sprite;
 
 typedef struct SpriteType Sprite;
 
-void LS013_InvertBuffer(void);
-void LS013_DispSpiTransmit (uint8_t* data, unsigned int len);
-void LS013_DrawLines( uint8_t start_column, uint8_t width, uint16_t* data );
+void LS013_InvertBuffer(void); //Internal
+void LS013_DispSpiTransmit (uint8_t* data, unsigned int len); //Internal
+void LS013_DrawLines( uint8_t start_column, uint8_t width, uint16_t* data ); //Internal
 void LS013_Init(void);
-void LS013_DrawDots(void);
-void LS013_RenderBuffer( bool renderwhole );
+void LS013_Refresh( bool whole_display ); /*Refreshes the display, sending in the framebuffer.
+whole_display forces a complete display refresh. !Automatically puts the display to dynamic mode! */
 void LS013_ClearBufferArea( uint8_t vert_position, uint8_t horiz_position, uint8_t width, uint8_t height );
+//Clears the framebuffer area
 void LS013_SpriteToBuffer( Sprite sprite, uint8_t position_vert, uint8_t position_horiz, bool merge_draw );
-void LS013_ClearBufferArea( uint8_t vert_position, uint8_t horiz_position, uint8_t width, uint8_t height );
-void LS013_SpriteToBuffer( Sprite sprite, uint8_t position_vert, uint8_t position_horiz, bool merge_draw );
-void LS013_SetBuffer( const uint16_t* img );
-void LS013_ClearBuffer(void);
+/* Draws a Sprite object on the display framebuffer. merge_draw merges the sprite with existing framebuffer image
+instead of overwriting it																						*/
+void LS013_SetBuffer( const uint16_t* img ); //Copies a display-sized image to display framebuffer
+void LS013_ClearBuffer(void); //Clears the display framebuffer
+void LS013_InvertPolarity(void); //Has to be called at least once per second (see datasheet of display)
+void LS013_StaticMode(void); // Puts the display to static mode which saves power
+void LS013_Enable(void);
+void LS013_Disable(void);
