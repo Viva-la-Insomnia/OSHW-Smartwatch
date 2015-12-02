@@ -17,7 +17,7 @@ Features of the project:
  - Separate I2C EEPROM memory (up to 1MB in the current iteration)(flash in the final version)
  - Planned password manager functionality with EFM32 hardware encryption
 
-Current state of project: Most of the parts have arrived by now, we're going to start assembling the prototype in October :)
+Current state of project: We have assembled a prototype and are debugging the software
 
 We would like to thank Jared Sanson - http://jared.geek.nz/2014/jul/oshw-oled-watch - for inspiration and design ideas.
 Kris Winer - https://github.com/kriswiner/MPU-9250/ - for his MPU-9250 code
