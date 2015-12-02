@@ -7,6 +7,7 @@ C_SRCS += \
 ../src/AFE4490.c \
 ../src/BQ25010.c \
 ../src/BQ27421.c \
+../src/Graphics.c \
 ../src/InitDevice.c \
 ../src/LS013_MD.c \
 ../src/MPU9250.c \
@@ -18,6 +19,7 @@ OBJS += \
 ./src/AFE4490.o \
 ./src/BQ25010.o \
 ./src/BQ27421.o \
+./src/Graphics.o \
 ./src/InitDevice.o \
 ./src/LS013_MD.o \
 ./src/MPU9250.o \
@@ -29,6 +31,7 @@ C_DEPS += \
 ./src/AFE4490.d \
 ./src/BQ25010.d \
 ./src/BQ27421.d \
+./src/Graphics.d \
 ./src/InitDevice.d \
 ./src/LS013_MD.d \
 ./src/MPU9250.d \
@@ -56,6 +59,13 @@ src/BQ27421.o: ../src/BQ27421.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GNU ARM C Compiler'
 	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb '-DEFM32GG332F1024=1' -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/bsp" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/CMSIS/Include" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include" -I"/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc" -I"/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/src" -O0 -Wall -c -fmessage-length=0 -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -std=c99 -MMD -MP -MF"src/BQ27421.d" -MT"src/BQ27421.o" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+src/Graphics.o: ../src/Graphics.c
+	@echo 'Building file: $<'
+	@echo 'Invoking: GNU ARM C Compiler'
+	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb '-DEFM32GG332F1024=1' -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/bsp" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/CMSIS/Include" -I"/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include" -I"/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc" -I"/home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/src" -O0 -Wall -c -fmessage-length=0 -mno-sched-prolog -fno-builtin -ffunction-sections -fdata-sections -std=c99 -MMD -MP -MF"src/Graphics.d" -MT"src/Graphics.o" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
