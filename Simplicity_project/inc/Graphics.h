@@ -7,7 +7,6 @@
 
 #ifndef GRAPHICS_H_
 #define GRAPHICS_H_
-
 #endif
 
-extern const uint16_t LoadingBackground[];
+extern const uint16_t LoadingBackground[]; //A neat picture of a stormtrooper

@@ -31,43 +31,50 @@
 #include "LS013_MD.h"
 #include "InitDevice.h"
 #include "Graphics.h"
+#include "rtc.h"
+#include "EEPROM.h"
 
 int main(void)
 {
-  /* Initialise the chip - included for backwards compatibility.
-   * Do not add code before this point							*/
-  CHIP_Init();
+	/* Initialise the chip - included for backwards compatibility.
+	 * Do not add code before this point							*/
+	CHIP_Init();
 
-  /* Start in default mode */
-  enter_DefaultMode_from_RESET();
+	/* Start in default mode */
+	enter_DefaultMode_from_RESET();
 
-  //Calibrate the delay
-  UDELAY_Calibrate();
+	//Calibrate the delay function
+	UDELAY_Calibrate();
 
-  /* Initialise the subsystems
-   * after 150ms delay for them to boot */
-  MDELAY_Delay(150);
-  BQ25010_init();
-  BQ27421_Init();
-  MPU9250_Init();
-  LS013_Init();
-  LS013_SetBuffer(LoadingBackground);
-  LS013_Refresh(1);
-  LS013_Enable();
+	/* Initialise the subsystems
+	 * after 150ms delay for them to boot */
+	MDELAY_Delay(150);
 
-  float AK8963_sensitivityadj[3];
-  MPU9250_InitAK8963(AK8963_sensitivityadj);
+	LS013_Init();
+	LS013_SetBuffer(LoadingBackground);
+	LS013_Refresh(1);
+	LS013_Enable();
 
-  float gyro_bias[3];
-  float	acc_bias[3];
-  MPU9250_Calibrate(gyro_bias, acc_bias);
+	RTC_Mod_Init();
+	//BQ25010_init();
+	BQ27421_Init();
+	//MPU9250_Init();
 
-  float selftest_results[6];
-  MPU9250_SelfTest(selftest_results);
+	/* Uncomment when we solder in the MPU
+	float AK8963_sensitivityadj[3];
+	MPU9250_InitAK8963(AK8963_sensitivityadj);
 
-  /* Infinite loop */
-  while (1) {
-	  MDELAY_Delay(200);
-	  LS013_InvertPolarity();
-  }
+	float gyro_bias[3];
+	float	acc_bias[3];
+	MPU9250_Calibrate(gyro_bias, acc_bias);
+
+	float selftest_results[6];
+	MPU9250_SelfTest(selftest_results);
+	*/
+
+  // Infinite loop
+	while (1) {
+		MDELAY_Delay(200);
+		LS013_InvertPolarity();
+	}
 }

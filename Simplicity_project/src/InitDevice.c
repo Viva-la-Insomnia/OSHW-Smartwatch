@@ -22,6 +22,7 @@
 #include "em_rmu.h"
 #include "em_gpio.h"
 #include "em_i2c.h"
+#include "em_rtc.h"
 #include "em_usart.h"
 // [Library includes]$
 
@@ -34,6 +35,7 @@ extern void enter_DefaultMode_from_RESET(void) {
 	LFXO_enter_DefaultMode_from_RESET();
 	CMU_enter_DefaultMode_from_RESET();
 	BURTC_enter_DefaultMode_from_RESET();
+	RTC_enter_DefaultMode_from_RESET();
 	USART0_enter_DefaultMode_from_RESET();
 	USART1_enter_DefaultMode_from_RESET();
 	I2C0_enter_DefaultMode_from_RESET();
@@ -53,6 +55,9 @@ extern void CMU_enter_DefaultMode_from_RESET(void) {
 	// [High Frequency Clock select]$
 
 	// $[LFACLK Setup]
+	/* Select LFXO as clock source for LFACLK */
+	CMU_ClockSelectSet(cmuClock_LFA, cmuSelect_LFXO);
+
 	// [LFACLK Setup]$
 
 	// $[Peripheral Clock enables]
@@ -61,6 +66,9 @@ extern void CMU_enter_DefaultMode_from_RESET(void) {
 
 	/* Enable clock for I2C1 */
 	CMU_ClockEnable(cmuClock_I2C1, true);
+
+	/* Enable clock for RTC */
+	CMU_ClockEnable(cmuClock_RTC, true);
 
 	/* Enable clock for USART0 */
 	CMU_ClockEnable(cmuClock_USART0, true);
@@ -163,7 +171,7 @@ extern void BURTC_enter_DefaultMode_from_RESET(void) {
 	init.mode = burtcModeEM2;
 	init.debugRun = true;
 	init.clkSel = burtcClkSelLFRCO;
-	init.clkDiv = burtcClkDiv_1;
+	init.clkDiv = burtcClkDiv_32;
 	init.timeStamp = false;
 	init.compare0Top = true;
 	init.lowPowerMode = burtcLPDisable;
@@ -216,6 +224,12 @@ extern void LFXO_enter_DefaultMode_from_RESET(void) {
 //================================================================================
 extern void RTC_enter_DefaultMode_from_RESET(void) {
 	// $[RTC_Init]
+	RTC_Init_TypeDef init = RTC_INIT_DEFAULT;
+
+	init.debugRun = 0;
+	init.comp0Top = 1;
+
+	RTC_Init(&init);
 	// [RTC_Init]$
 
 }

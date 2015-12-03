@@ -57,6 +57,7 @@ src/InitDevice.o: ../src/InitDevice.c \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rmu.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_i2c.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rtc.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/InitDevice.h:
@@ -174,5 +175,7 @@ src/InitDevice.o: ../src/InitDevice.c \
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h:
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_i2c.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rtc.h:
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h:
