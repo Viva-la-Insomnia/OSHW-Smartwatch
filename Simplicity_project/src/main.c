@@ -48,16 +48,16 @@ int main(void)
 
 	/* Initialise the subsystems
 	 * after 150ms delay for them to boot */
-	MDELAY_Delay(150);
+	//UDELAY_Delay(150);
 
 	LS013_Init();
 	LS013_SetBuffer(LoadingBackground);
 	LS013_Refresh(1);
 	LS013_Enable();
 
-	RTC_Mod_Init();
+	//RTC_Mod_Init();
 	//BQ25010_init();
-	BQ27421_Init();
+	//BQ27421_Init();
 	//MPU9250_Init();
 
 	/* Uncomment when we solder in the MPU
@@ -74,7 +74,7 @@ int main(void)
 
   // Infinite loop
 	while (1) {
-		MDELAY_Delay(200);
+		UDELAY_Delay(200);
 		LS013_InvertPolarity();
 	}
 }
