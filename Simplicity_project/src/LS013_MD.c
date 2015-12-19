@@ -4,6 +4,7 @@
  * @author Tuomas Tinus, Jimi Järvelin
  * @version 0.5
  * Some functions ported and modified from SiLabs SLSTK3400A display drivers
+ * and render.c
  ******************************************************************************/
 //INCLUDES
 #include "stdint.h"
@@ -64,7 +65,6 @@ void LS013_InvertBuffer(void){
 }
 
 void LS013_DispSpiTransmit (uint16_t* data, unsigned int len){
-	//Ported
 	//Transmits data via SPI, duuh
 	uint16_t* pointer = data;
 
@@ -166,75 +166,60 @@ void LS013_Refresh( bool whole_display ){
 
 }
 
-void LS013_ClearBufferArea( uint8_t vert_position, uint8_t horiz_pos, uint8_t width, uint8_t height ){
-	Sprite clear;
-	clear.HEIGHT = height;
-	clear.WIDTH = width;
-	clear.SPRITE[(height*((width-width%16)/16+1))] = 0;
-	//Fill the clear mask with 1s
-	for ( int i = 0; i < (height*((width-width%16)/16+1)); i++){
-			clear.SPRITE[i] = 0xFFFF;
+void LS013_ClearBufferArea( uint32_t xstart, uint32_t ystart, uint32_t xwidth, uint32_t ywidth, int color ){
+	uint32_t x, y;
+	uint16_t* framePointer;
+	int frameOffset;
+
+	for (y = ystart; y < ystart+ywidth; y++)
+	{
+		for (x = xstart; x < xstart+xwidth; x++)
+		{
+			framePointer = &framebuffer[(x + y * DISP_WIDTH)/16];
+			frameOffset  = x % 16;
+			if (color)
+			{
+				*framePointer |= (1 << frameOffset);
+			}
+			else
+			{
+				*framePointer &= ~(1 << frameOffset);
+			}
+
 		}
-	//Clear the leading zeros
-	if ( ~(clear.WIDTH%16 == 0) ){
-		uint16_t bits = (2^(clear.WIDTH%16))-1;
-		for ( int i = 0; i < width; i++ ){
-			clear.SPRITE[(DISP_WIDTH/sizeof(uint16_t))*i] &= ~bits;
-		}
+
+		/* Mark line dirty */
+		linestorender[y/16] |= (1 << (y % 16));
 	}
 
-	if ( ((horiz_pos + clear.WIDTH) <= DISP_WIDTH) & ((vert_position + clear.HEIGHT) <= DISP_HEIGHT ) ){
-		int horiz_position = horiz_pos - 16 + clear.WIDTH%16; //To deal with heading zeros of the clear sprite
-		int offset = horiz_position%16;
-		vert_position = (vert_position - offset)/16;
-		//Now vert_position contains the number of uint16_t in vert line in which clear sprite starts
-		//Offset contains the offset of sprite from the beginning of that uint16_t
-		const int horizunitsinsprite = (clear.WIDTH - clear.WIDTH%16)/16+1;
-		for ( int i = 0; i < clear.HEIGHT; i++ ){
-			//horiz line
-			int j = 0;
-			while ( j < horizunitsinsprite ){
-				//vertical bit
-				int position = horiz_position +(DISP_WIDTH/sizeof(uint16_t))*(vert_position+i)+j;
-				framebuffer[position] &= ~clear.SPRITE[j] >> offset;
-				framebuffer[position+1] &= ~clear.SPRITE[j] << offset;
-				j+=1;
+		}
+
+void LS013_DrawSprite( uint32_t posx, uint32_t posy, const Sprite sprite ){
+	uint32_t x, y;
+	uint32_t spriteOffset, frameOffset;
+	uint16_t spriteUnit;
+	uint16_t* framePointer;
+
+	for (y = 0; y < sprite.HEIGHT; y++)
+	{
+		for (x = 0; x < sprite.WIDTH; x++)
+		{
+			/* Get correct alien byte*/
+			spriteUnit = *(sprite.SPRITE + x/16 + y*sprite.WIDTH/16);
+			spriteOffset = x % 16;
+
+			/* Mark bits that are coloured */
+			if (spriteUnit & (1 << spriteOffset))
+			{
+				framePointer = &framebuffer[((posx + x) + (posy + y)*DISP_WIDTH)/16];
+				frameOffset  = (posx + x) % 16;
+				*framePointer |= (1 << frameOffset);
 			}
 		}
-		for ( int i = 0; i < height; i++ ){
-			linestorender[vert_position+i] = 1;
-		}
+
+		/* Mark line dirty */
+		linestorender[(posy + y)/16] |= (1 << ((posy + y) % 16));
 	}
-}
-
-void LS013_SpriteToBuffer( Sprite sprite, uint8_t position_vert, uint8_t position_horizont, bool merge_draw ){
-
-	if ( ((position_horizont + sprite.WIDTH) <= DISP_WIDTH) & ((position_vert + sprite.HEIGHT) <= DISP_HEIGHT ) ){
-		if ( merge_draw == 0 ){
-			LS013_ClearBufferArea( position_vert, position_horizont, sprite.WIDTH, sprite.HEIGHT );
-		}
-		int position_horiz = position_horizont - 16 + sprite.WIDTH%16; //To deal with heading zeros of the sprite
-		int offset = position_horiz%16;
-		position_horiz = (position_horiz - offset)/16;
-		//Now position_horiz contains the number of uint16_t in horizontal line in which sprite starts
-		//Offset contains the offset of sprite from the beginning of that uint16_t
-		const int horizunitsinsprite = (sprite.WIDTH - sprite.WIDTH%16)/16+1;
- 		for ( int i = 0; i < sprite.HEIGHT; i++ ){
- 			//horiz line
-			int j = 0;
-			while ( j < horizunitsinsprite ){
-				//vertical bit
-				int position = position_horiz +(DISP_HEIGHT/sizeof(uint16_t))*(position_vert+i)+j;
-				framebuffer[position] |= sprite.SPRITE[j] >> offset;
-				framebuffer[position+1] |= sprite.SPRITE[j] << offset;
-				j+=1;
-			}
- 		}
- 		for ( int i = 0; i < sprite.WIDTH; i++ ){
- 			linestorender[position_horiz+i] = 1;
- 		}
-	}
-
 }
 
 

@@ -44,7 +44,7 @@
 typedef struct SpriteType {
 
 	uint8_t WIDTH, HEIGHT;
-	uint16_t SPRITE[];
+	uint16_t* SPRITE;
 
 	/* Sprite file to draw on the display
 	 * Actual sprite consists of an array of pixels in uint16_t with inverse bit order (because comms are LSB-first
@@ -63,9 +63,9 @@ void LS013_DrawLines( uint8_t start_column, uint8_t width, uint16_t* data ); //I
 void LS013_Init(void);
 void LS013_Refresh( bool whole_display ); /*Refreshes the display, sending in the framebuffer.
 whole_display forces a complete display refresh. !Automatically puts the display to dynamic mode! */
-void LS013_ClearBufferArea( uint8_t vert_position, uint8_t horiz_position, uint8_t width, uint8_t height );
+void LS013_ClearBufferArea( uint32_t xstart, uint32_t ystart, uint32_t xwidth, uint32_t ywidth, int color );
 //Clears the framebuffer area
-void LS013_SpriteToBuffer( Sprite sprite, uint8_t position_vert, uint8_t position_horiz, bool merge_draw );
+void LS013_DrawSprite( uint32_t posx, uint32_t posy, const Sprite sprite );
 /* Draws a Sprite object on the display framebuffer. merge_draw merges the sprite with existing framebuffer image
 instead of overwriting it																						*/
 void LS013_SetBuffer( const uint16_t* img ); //Copies a display-sized image to display framebuffer

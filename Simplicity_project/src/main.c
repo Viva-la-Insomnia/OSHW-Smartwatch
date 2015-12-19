@@ -55,11 +55,40 @@ int main(void)
 	LS013_Init();
 	LS013_Enable();
 	UDELAY_Delay(250);
-	LS013_SetBuffer(LoadingBackground);
-	//LS013_DrawLines(0, 95, LoadingBackground);
-	//LS013_InvertBuffer();
-	LS013_Refresh(1);
+	//LS013_SetBuffer(LoadingBackground);
 
+	uint16_t cook[4];
+	cook[0] = 0xa55a;
+	cook[1] = 0x5aa5;
+	cook[2] = 0xa55a;
+	cook[3] = 0x5aa5;
+	Sprite sprite;
+	sprite.HEIGHT = 8;
+	sprite.WIDTH = 8;
+	sprite.SPRITE = cook;
+
+	while(1){
+		for (uint32_t i = 10; i<80; i++ ){
+			LS013_DrawSprite( i, 10, sprite );
+			LS013_Refresh(0);
+			LS013_ClearBufferArea( i, 10, sprite.WIDTH, sprite.HEIGHT, 0 );
+		}
+		for (uint32_t i = 10; i<80; i++ ){
+			LS013_DrawSprite( 80, i, sprite );
+			LS013_Refresh(0);
+			LS013_ClearBufferArea( 80, i, sprite.WIDTH, sprite.HEIGHT, 0 );
+		}
+		for (uint32_t i = 80; i>10; i-- ){
+			LS013_DrawSprite( i, 80, sprite );
+			LS013_Refresh(0);
+			LS013_ClearBufferArea( i, 80, sprite.WIDTH, sprite.HEIGHT, 0 );
+		}
+		for (uint32_t i = 80; i>10; i-- ){
+			LS013_DrawSprite( 10, i, sprite );
+			LS013_Refresh(0);
+			LS013_ClearBufferArea( 10, i, sprite.WIDTH, sprite.HEIGHT, 0 );
+		}
+	}
 	//RTC_Mod_Init();
 	//BQ25010_init();
 	//BQ27421_Init();
