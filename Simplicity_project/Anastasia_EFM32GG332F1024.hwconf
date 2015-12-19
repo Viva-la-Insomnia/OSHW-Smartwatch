@@ -122,6 +122,7 @@
     <property object="RTC" propertyId="ABPeripheral.included" value="true"/>
     <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
     <property object="USART0" propertyId="usart.mode.usartmode" value="Synchronous Mode (SPI / I2S)"/>
+    <property object="USART0" propertyId="usart.synchronoussettings.mostsignificantbitfirst" value="Disabled"/>
     <property object="USART1" propertyId="ABPeripheral.included" value="true"/>
     <property object="USART1" propertyId="usart.mode.usartmode" value="Synchronous Mode (SPI / I2S)"/>
   </mode>

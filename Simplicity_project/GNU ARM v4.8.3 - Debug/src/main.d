@@ -56,7 +56,11 @@ src/main.o: ../src/main.c \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/InitDevice.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/Graphics.h \
  /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/rtc.h \
- /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/EEPROM.h
+ /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/EEPROM.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_assert.h
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h:
 
@@ -173,3 +177,11 @@ src/main.o: ../src/main.c \
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/rtc.h:
 
 /home/sumanguru/Documents/Smartwatch/git/OSHW-Smartwatch/Simplicity_project/inc/EEPROM.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_usart.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_assert.h:

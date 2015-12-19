@@ -283,7 +283,7 @@ extern void USART0_enter_DefaultMode_from_RESET(void) {
 	initsync.baudrate = 115200;
 	initsync.databits = usartDatabits8;
 	initsync.master = 1;
-	initsync.msbf = 1;
+	initsync.msbf = 0;
 	initsync.clockMode = usartClockMode0;
 #if defined( USART_INPUT_RXPRS ) && defined( USART_TRIGCTRL_AUTOTXTEN )
 	initsync.prsRxEnable = 0;

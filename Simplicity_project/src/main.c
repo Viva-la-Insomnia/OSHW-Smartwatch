@@ -33,6 +33,8 @@
 #include "Graphics.h"
 #include "rtc.h"
 #include "EEPROM.h"
+#include "em_usart.h"
+#include "em_gpio.h"
 
 int main(void)
 {
@@ -51,9 +53,12 @@ int main(void)
 	//UDELAY_Delay(150);
 
 	LS013_Init();
-	LS013_SetBuffer(LoadingBackground);
-	LS013_Refresh(1);
 	LS013_Enable();
+	UDELAY_Delay(250);
+	LS013_SetBuffer(LoadingBackground);
+	//LS013_DrawLines(0, 95, LoadingBackground);
+	//LS013_InvertBuffer();
+	LS013_Refresh(1);
 
 	//RTC_Mod_Init();
 	//BQ25010_init();
@@ -75,6 +80,6 @@ int main(void)
   // Infinite loop
 	while (1) {
 		UDELAY_Delay(200);
-		LS013_InvertPolarity();
+		//LS013_InvertPolarity();
 	}
 }

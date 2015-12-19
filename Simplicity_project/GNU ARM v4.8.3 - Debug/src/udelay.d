@@ -48,7 +48,8 @@ src/udelay.o: ../src/udelay.c \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_cmu.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_bitband.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_int.h \
- /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rtc.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_timer.h \
+ /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_assert.h \
  /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/Device/SiliconLabs/EFM32GG/Include/em_device.h:
@@ -149,6 +150,8 @@ src/udelay.o: ../src/udelay.c \
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_int.h:
 
-/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_rtc.h:
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_timer.h:
+
+/home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/emlib/inc/em_assert.h:
 
 /home/sumanguru/Documents/SimplicityStudio_v3/developer/sdks/efm32/v2/kits/common/drivers/udelay.h:

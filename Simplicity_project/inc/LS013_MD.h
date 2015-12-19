@@ -47,7 +47,8 @@ typedef struct SpriteType {
 	uint16_t SPRITE[];
 
 	/* Sprite file to draw on the display
-	 * Actual sprite consists of an array of pixels in uint16_t
+	 * Actual sprite consists of an array of pixels in uint16_t with inverse bit order (because comms are LSB-first
+	 * and images are MSB-first)
 	 * Sprite that is not 16n pixels wide has leading zeros added in the beginning of every line
 	 * HEIGHT and WIDTH are measured in bits
 	 * */

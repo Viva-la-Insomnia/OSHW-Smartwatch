@@ -9,6 +9,9 @@
 #include "stdint.h"
 #include "math.h"
 #include "em_system.h"
+#include "em_rmu.h"
+#include "em_emu.h"
+#include "em_cmu.h"
 #include "em_device.h"
 #include "em_chip.h"
 #include "em_gpio.h"
@@ -19,7 +22,7 @@
 #include "LS013_MD.h"
 
 //DEFINES
-#define DISP_CS_PORT 		4 //SET THE RIGHT PIN AND PORT
+#define DISP_CS_PORT 		4
 #define DISP_CS_PIN 		9
 #define DISP_EN_PORT		4
 #define DISP_EN_PIN			8
@@ -64,10 +67,10 @@ void LS013_DispSpiTransmit (uint16_t* data, unsigned int len){
 	//Ported
 	//Transmits data via SPI, duuh
 	uint16_t* pointer = data;
-	while (len>0){
+
+	for(int i = 0; i<len; i++){
 		USART_TxDouble( DISP_USART, *pointer );
-		len  -= 1;
-		pointer += 1;
+		pointer++;
 	}
 
 	/* Wait for transfer to finish */
@@ -76,25 +79,23 @@ void LS013_DispSpiTransmit (uint16_t* data, unsigned int len){
 }
 
 void LS013_DrawLines( uint8_t start_row, uint8_t width, uint16_t* data ){
-	//Draws the select columns from buffer on the screen
+	//Draws the select rows from buffer on the screen
 	//Set CS and wait the setup time
 	GPIO_PinOutSet( DISP_CS_PORT, DISP_CS_PIN );
 	UDELAY_Delay(6);
 	uint16_t* pointer = data;
-	pointer += start_row;
+	pointer += start_row*6;
 
 	//Display counts from 1 and EFM from 0
 	start_row++;
 
 	uint16_t cmd;
 	//Send data
-	while( width > 0 ){
-		cmd = MODE_DYNAMIC | (start_row << 8);
+	for ( int i = 0; i<width; i++){
+		cmd = MODE_DYNAMIC | ((start_row+i) << 8);
 		LS013_DispSpiTransmit ( &cmd, 1 );
-		LS013_DispSpiTransmit ( pointer, DISP_WIDTH/sizeof(uint16_t) );
-		width--;
-		start_row++;
-		pointer += 1;
+		LS013_DispSpiTransmit ( pointer, 6 );
+		pointer += 6;
 	}
 
 	LS013_DispSpiTransmit( 0x0000, 1 ); //Dummy data
@@ -125,29 +126,6 @@ void LS013_ClearDisp(void){
 }
 
 void LS013_Init(void){
-	//Initialises the display
-	//Init the USART Interface
-	USART_InitSync_TypeDef initsync = USART_INITSYNC_DEFAULT;
-	initsync.baudrate = 115200;
-	initsync.databits = usartDatabits8;
-	initsync.master = 1;
-	initsync.msbf = 1;
-	initsync.clockMode = usartClockMode0;
-#if defined( USART_INPUT_RXPRS ) && defined( USART_TRIGCTRL_AUTOTXTEN )
-	initsync.prsRxEnable = 0;
-	initsync.prsRxCh = 0;
-	initsync.autoTx = 0;
-#endif
-
-	USART_InitSync( DISP_USART, &initsync );
-
-	USART_PrsTriggerInit_TypeDef initprs = USART_INITPRSTRIGGER_DEFAULT;
-
-	initprs.rxTriggerEnable        = 0;
-	initprs.txTriggerEnable        = 0;
-	initprs.prsTriggerChannel      = usartPrsTriggerCh0;
-
-	USART_InitPrsTrigger( DISP_USART, &initprs );
 
 	LS013_ClearBuffer();
 
@@ -159,7 +137,7 @@ void LS013_Refresh( bool whole_display ){
 	uint16_t  displaybuffer[DISP_WIDTH*DISP_HEIGHT/16];
 	uint16_t* bufferpointer = displaybuffer;
 
-	for ( int i = 0; i < DISP_WIDTH*DISP_HEIGHT/sizeof(uint16_t); i++ ){
+	for ( int i = 0; i < DISP_WIDTH*DISP_HEIGHT/16; i++ ){
 			displaybuffer[i] = ~framebuffer[i];
 		}
 
