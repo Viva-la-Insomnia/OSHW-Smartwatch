@@ -15,10 +15,10 @@ Features of the project:
  - Bluetooth Low-Energy interface
  - Inertial Measurement Unit (Accelerometer, Gyroscope, Magnetometer)
  - Sharp low-power memory display
- - Separate I2C EEPROM memory (up to 1MB in the current iteration)(flash in the final version)
- - Planned password manager functionality with EFM32 hardware encryption
+ - Separate I2C EEPROM memory (up to 1MB in the current iteration)(switching to flash in the final version)
+ - Possible password manager functionality with EFM32 hardware encryption
 
-Current state of project: We have assembled a prototype and are debugging the software
+Current state of project: We have assembled a prototype and are debugging the software. Due to high workload the development has been promptly suspended and will resume in early June 2016
 
 We would like to thank Jared Sanson - http://jared.geek.nz/2014/jul/oshw-oled-watch - for inspiration and design ideas.
 Kris Winer - https://github.com/kriswiner/MPU-9250/ - for his MPU-9250 code
